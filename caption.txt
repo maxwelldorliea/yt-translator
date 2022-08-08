@@ -1,0 +1,671 @@
+1
+00:00:00,000 --> 00:00:01,839
+so how to become motivated as a software
+
+2
+00:00:01,839 --> 00:00:04,000
+engineer is a question i think everybody
+
+3
+00:00:04,000 --> 00:00:06,480
+asks i get asked all the time how do i
+
+4
+00:00:06,480 --> 00:00:08,320
+stay motivated what happened if i don't
+
+5
+00:00:08,320 --> 00:00:11,040
+feel motivated how do i become motivated
+
+6
+00:00:11,040 --> 00:00:13,360
+is this just how you always feel so yeah
+
+7
+00:00:13,360 --> 00:00:15,120
+i'm gonna hot take pretty hard in this
+
+8
+00:00:15,120 --> 00:00:17,440
+video okay i can feel right now that
+
+9
+00:00:17,440 --> 00:00:18,800
+there's gonna be people in here that
+
+10
+00:00:18,800 --> 00:00:20,640
+aren't gonna like what i'm about to say
+
+11
+00:00:20,640 --> 00:00:22,800
+but we're gonna do it anyways so why
+
+12
+00:00:22,800 --> 00:00:24,640
+don't you combat those dislikers hit
+
+13
+00:00:24,640 --> 00:00:26,080
+that like button baby make a little
+
+14
+00:00:26,080 --> 00:00:27,439
+comment like oh you're the greatest and
+
+15
+00:00:27,439 --> 00:00:29,359
+then hit that sub button right now
+
+16
+00:00:29,359 --> 00:00:30,720
+because by the end of the video you're
+
+17
+00:00:30,720 --> 00:00:32,079
+going to want to take back all that but
+
+18
+00:00:32,079 --> 00:00:33,520
+it's too late you already did it just
+
+19
+00:00:33,520 --> 00:00:35,520
+move on move on with your life so i'm
+
+20
+00:00:35,520 --> 00:00:37,040
+going to define a couple things so what
+
+21
+00:00:37,040 --> 00:00:39,040
+is motivation well i really think it
+
+22
+00:00:39,040 --> 00:00:40,640
+breaks down into two categories there's
+
+23
+00:00:40,640 --> 00:00:42,480
+the extrinsic motivation the thing that
+
+24
+00:00:42,480 --> 00:00:44,079
+kind of like you have to do you have a
+
+25
+00:00:44,079 --> 00:00:45,440
+deadline at your job you don't want to
+
+26
+00:00:45,440 --> 00:00:46,559
+be bad at your job because if you get
+
+27
+00:00:46,559 --> 00:00:47,920
+bad at your job you might get fired if
+
+28
+00:00:47,920 --> 00:00:49,200
+you get fired you can't provide for your
+
+29
+00:00:49,200 --> 00:00:50,800
+family can't provide for whatever you
+
+30
+00:00:50,800 --> 00:00:52,960
+can't meet your bills you get the idea
+
+31
+00:00:52,960 --> 00:00:54,719
+it's not a great form of motivation it's
+
+32
+00:00:54,719 --> 00:00:56,239
+actually one of the you know like it's
+
+33
+00:00:56,239 --> 00:00:58,320
+not an enjoyable form at least so we all
+
+34
+00:00:58,320 --> 00:01:00,320
+want that intrinsic motivation that
+
+35
+00:01:00,320 --> 00:01:02,000
+motivation that i think people call
+
+36
+00:01:02,000 --> 00:01:04,640
+passion right where you just desire to
+
+37
+00:01:04,640 --> 00:01:06,880
+be good at something it's the desire so
+
+38
+00:01:06,880 --> 00:01:08,720
+great it makes you go to great lengths
+
+39
+00:01:08,720 --> 00:01:10,640
+to accomplish it we all want that and i
+
+40
+00:01:10,640 --> 00:01:12,960
+think we all recognize we want that so
+
+41
+00:01:12,960 --> 00:01:14,479
+let's kind of talk about that i'm going
+
+42
+00:01:14,479 --> 00:01:16,000
+to tell you a little secret i stream on
+
+43
+00:01:16,000 --> 00:01:17,439
+twitch okay that's not the secret yeah i
+
+44
+00:01:17,439 --> 00:01:18,880
+stream on twitch multiple days a week
+
+45
+00:01:18,880 --> 00:01:21,439
+but there are many days where i just
+
+46
+00:01:21,439 --> 00:01:24,080
+don't really want to i just kind of feel
+
+47
+00:01:24,080 --> 00:01:24,880
+like
+
+48
+00:01:24,880 --> 00:01:26,400
+you know like i i just don't want to do
+
+49
+00:01:26,400 --> 00:01:27,680
+it and there are even some days where i
+
+50
+00:01:27,680 --> 00:01:29,600
+actually am like getting anxiety about
+
+51
+00:01:29,600 --> 00:01:32,000
+doing it this happens it happens to me
+
+52
+00:01:32,000 --> 00:01:34,000
+but something else happens i turn on the
+
+53
+00:01:34,000 --> 00:01:36,079
+stream button i get ready i open up my
+
+54
+00:01:36,079 --> 00:01:37,920
+terminal i kind of prepare like okay
+
+55
+00:01:37,920 --> 00:01:39,520
+that's what i'm gonna do and also it's
+
+56
+00:01:39,520 --> 00:01:41,280
+like something starts happening i kind
+
+57
+00:01:41,280 --> 00:01:43,200
+of break through this molasses it's like
+
+58
+00:01:43,200 --> 00:01:45,759
+i kind of just start moving through all
+
+59
+00:01:45,759 --> 00:01:47,280
+this stuff that makes me feel like i
+
+60
+00:01:47,280 --> 00:01:48,960
+can't do anything or i don't want to do
+
+61
+00:01:48,960 --> 00:01:51,280
+anything and i start becoming motivated
+
+62
+00:01:51,280 --> 00:01:53,119
+by about 10 minutes into the stream i'm
+
+63
+00:01:53,119 --> 00:01:55,280
+feeling pretty motivated by 20 minutes
+
+64
+00:01:55,280 --> 00:01:58,079
+into it i am crushing now you may not
+
+65
+00:01:58,079 --> 00:01:59,759
+call it crushing you may call it
+
+66
+00:01:59,759 --> 00:02:01,840
+fondling around in the dark tech pi is
+
+67
+00:02:01,840 --> 00:02:06,000
+proverbial that's not the right term
+
+68
+00:02:06,000 --> 00:02:08,160
+no no that's not it that's not it you
+
+69
+00:02:08,160 --> 00:02:09,360
+know what it is
+
+70
+00:02:09,360 --> 00:02:11,520
+you call crap okay but nonetheless this
+
+71
+00:02:11,520 --> 00:02:13,200
+happens to me where i go from this
+
+72
+00:02:13,200 --> 00:02:15,840
+position of not feeling it at all to
+
+73
+00:02:15,840 --> 00:02:18,080
+just really feeling on fire for it and
+
+74
+00:02:18,080 --> 00:02:19,760
+this happens quite a bit and i think
+
+75
+00:02:19,760 --> 00:02:21,520
+this has probably happened to you once
+
+76
+00:02:21,520 --> 00:02:23,520
+or twice in your lifetime so this is it
+
+77
+00:02:23,520 --> 00:02:25,360
+this is the hot take this is the real
+
+78
+00:02:25,360 --> 00:02:28,080
+piece of advice which is don't consider
+
+79
+00:02:28,080 --> 00:02:30,239
+how you feel in the moment now i've
+
+80
+00:02:30,239 --> 00:02:32,319
+personally learned how to separate how i
+
+81
+00:02:32,319 --> 00:02:34,720
+feel versus what i need to get done or
+
+82
+00:02:34,720 --> 00:02:37,599
+what i desire intellectually to get done
+
+83
+00:02:37,599 --> 00:02:41,519
+and i call this maturity yeah i know
+
+84
+00:02:41,519 --> 00:02:44,319
+i can tell there's people you do this
+
+85
+00:02:44,319 --> 00:02:46,480
+they're like no don't say it to me this
+
+86
+00:02:46,480 --> 00:02:48,640
+hurts i'm special okay i will become
+
+87
+00:02:48,640 --> 00:02:50,239
+naturally motivated i'll just have
+
+88
+00:02:50,239 --> 00:02:52,720
+passion galore and excel at my projects
+
+89
+00:02:52,720 --> 00:02:55,920
+no you're not you're not gonna do it it
+
+90
+00:02:55,920 --> 00:02:58,080
+doesn't work that way sure there's that
+
+91
+00:02:58,080 --> 00:03:00,000
+one time in your life when you first
+
+92
+00:03:00,000 --> 00:03:02,080
+started to do something and it was novel
+
+93
+00:03:02,080 --> 00:03:04,560
+it was new it was exciting and you
+
+94
+00:03:04,560 --> 00:03:07,120
+naturally felt a wealth ring of passion
+
+95
+00:03:07,120 --> 00:03:08,800
+arise in your life but that was the
+
+96
+00:03:08,800 --> 00:03:10,080
+first 20
+
+97
+00:03:10,080 --> 00:03:12,640
+and the first 20 feels amazing on
+
+98
+00:03:12,640 --> 00:03:14,720
+anything but does that passion continue
+
+99
+00:03:14,720 --> 00:03:17,200
+into the last 80 percent absolutely not
+
+100
+00:03:17,200 --> 00:03:19,680
+that kind of passion does not last kind
+
+101
+00:03:19,680 --> 00:03:21,360
+of the moral of this video or the thing
+
+102
+00:03:21,360 --> 00:03:23,120
+that you can kind of take away is that
+
+103
+00:03:23,120 --> 00:03:26,000
+pursue making how you feel align with
+
+104
+00:03:26,000 --> 00:03:28,720
+reality as opposed to letting reality be
+
+105
+00:03:28,720 --> 00:03:30,640
+aligned to how you feel because you will
+
+106
+00:03:30,640 --> 00:03:33,200
+never feel that motivation you're never
+
+107
+00:03:33,200 --> 00:03:35,120
+gonna get just constantly and
+
+108
+00:03:35,120 --> 00:03:37,440
+continuously inspired to do something
+
+109
+00:03:37,440 --> 00:03:39,599
+very rarely does that ever happen i'm
+
+110
+00:03:39,599 --> 00:03:41,280
+sure there's a person that actually
+
+111
+00:03:41,280 --> 00:03:43,360
+happens but it doesn't always happen i'm
+
+112
+00:03:43,360 --> 00:03:45,120
+gonna you know like honestly every time
+
+113
+00:03:45,120 --> 00:03:47,200
+i record a youtube video i don't feel it
+
+114
+00:03:47,200 --> 00:03:49,840
+as i start including in this video i got
+
+115
+00:03:49,840 --> 00:03:52,000
+interrupted by my kid and it killed the
+
+116
+00:03:52,000 --> 00:03:53,920
+momentum and i felt like i couldn't
+
+117
+00:03:53,920 --> 00:03:56,480
+finish it but i backed it up and made it
+
+118
+00:03:56,480 --> 00:03:59,599
+happen because i know i can't let how i
+
+119
+00:03:59,599 --> 00:04:00,799
+feel
+
+120
+00:04:00,799 --> 00:04:02,879
+dictate what i should be doing and
+
+121
+00:04:02,879 --> 00:04:05,120
+honestly if i were to listen to how i
+
+122
+00:04:05,120 --> 00:04:06,799
+feel i wouldn't ever have made any
+
+123
+00:04:06,799 --> 00:04:08,159
+youtube videos i would not even have
+
+124
+00:04:08,159 --> 00:04:09,840
+streamed that much i would have just
+
+125
+00:04:09,840 --> 00:04:11,280
+kind of quit everything i would have
+
+126
+00:04:11,280 --> 00:04:13,439
+just done what i need to do to barely
+
+127
+00:04:13,439 --> 00:04:17,040
+get by in life i have to excel that i
+
+128
+00:04:17,040 --> 00:04:19,600
+have to jump over it i have to make a
+
+129
+00:04:19,600 --> 00:04:22,320
+choice consciously to ignore it and i
+
+130
+00:04:22,320 --> 00:04:24,000
+hope that you can take away that same
+
+131
+00:04:24,000 --> 00:04:26,080
+thing and that's truly where i think
+
+132
+00:04:26,080 --> 00:04:28,800
+real passion lies real motivation lies
+
+133
+00:04:28,800 --> 00:04:31,199
+it's not in the moment it's being able
+
+134
+00:04:31,199 --> 00:04:33,360
+to connect what's up here to what's in
+
+135
+00:04:33,360 --> 00:04:34,240
+here
+
+136
+00:04:34,240 --> 00:04:37,280
+and sometimes it is really really hard
+
+137
+00:04:37,280 --> 00:04:38,560
+i've even heard the quote that that's
+
+138
+00:04:38,560 --> 00:04:40,560
+the greatest distance in the universe is
+
+139
+00:04:40,560 --> 00:04:42,320
+from the head to the heart you know i've
+
+140
+00:04:42,320 --> 00:04:43,919
+been making these these videos just kind
+
+141
+00:04:43,919 --> 00:04:45,840
+of giving out advice or things i think
+
+142
+00:04:45,840 --> 00:04:47,600
+about and i really do hope that you like
+
+143
+00:04:47,600 --> 00:04:49,120
+this i really do hope that you take the
+
+144
+00:04:49,120 --> 00:04:51,280
+time to consider what i'm saying and if
+
+145
+00:04:51,280 --> 00:04:53,120
+i'm wrong let me let me know give me
+
+146
+00:04:53,120 --> 00:04:54,479
+your thoughts and i do actually mean
+
+147
+00:04:54,479 --> 00:04:56,880
+that i do read and respond to so many
+
+148
+00:04:56,880 --> 00:04:59,759
+comments because i wish i had someone
+
+149
+00:04:59,759 --> 00:05:01,440
+telling me these things when i was
+
+150
+00:05:01,440 --> 00:05:03,120
+younger okay i didn't have this i grew
+
+151
+00:05:03,120 --> 00:05:05,680
+up without a dad i grew up with no one
+
+152
+00:05:05,680 --> 00:05:07,440
+telling me how to live my life and it
+
+153
+00:05:07,440 --> 00:05:10,720
+was really really hard
+
+154
+00:05:10,720 --> 00:05:14,080
+and i've had to discover so much
+
+155
+00:05:14,080 --> 00:05:16,080
+by trial and error as opposed to just
+
+156
+00:05:16,080 --> 00:05:17,840
+simply having someone
+
+157
+00:05:17,840 --> 00:05:21,600
+tell me these things so
+
+158
+00:05:21,600 --> 00:05:24,000
+so that's my motivation and yeah i don't
+
+159
+00:05:24,000 --> 00:05:25,919
+always feel it
+
+160
+00:05:25,919 --> 00:05:27,600
+i wake up every day feeling just like
+
+161
+00:05:27,600 --> 00:05:28,880
+you do like
+
+162
+00:05:28,880 --> 00:05:31,039
+trash to drinking coffee to
+
+163
+00:05:31,039 --> 00:05:33,039
+reading stupid emails to hopefully
+
+164
+00:05:33,039 --> 00:05:34,720
+getting somewhere at the same time i
+
+165
+00:05:34,720 --> 00:05:36,240
+know i have that inner desire and i just
+
+166
+00:05:36,240 --> 00:05:38,080
+have to make it come out so thank you
+
+167
+00:05:38,080 --> 00:05:40,080
+for watching my name's the primogen did
+
+168
+00:05:40,080 --> 00:05:44,120
+i mention i stream on twitch

@@ -1,0 +1,6731 @@
+1
+00:00:04,160 --> 00:00:05,920
+are you ready
+
+2
+00:00:05,920 --> 00:00:08,320
+this is going to be amazing
+
+3
+00:00:08,320 --> 00:00:11,200
+machine learning with python an awesome
+
+4
+00:00:11,200 --> 00:00:13,840
+15 lesson journey together it's going to
+
+5
+00:00:13,840 --> 00:00:16,880
+be amazing we are going to explore
+
+6
+00:00:16,880 --> 00:00:19,119
+k nearest neighborhood classifier linear
+
+7
+00:00:19,119 --> 00:00:21,039
+classifier support work to classifier
+
+8
+00:00:21,039 --> 00:00:22,960
+what is all that don't worry we'll get
+
+9
+00:00:22,960 --> 00:00:25,199
+there we will explore linear regression
+
+10
+00:00:25,199 --> 00:00:27,119
+reinforcement learning unsupervised
+
+11
+00:00:27,119 --> 00:00:31,439
+learning neural networks or dnn cnn what
+
+12
+00:00:31,439 --> 00:00:33,520
+is that don't worry we will cover all
+
+13
+00:00:33,520 --> 00:00:34,399
+that
+
+14
+00:00:34,399 --> 00:00:37,680
+pi torch classifier rnn or recurrent
+
+15
+00:00:37,680 --> 00:00:39,920
+neural networks natural language
+
+16
+00:00:39,920 --> 00:00:42,239
+processing yeah you need to master all
+
+17
+00:00:42,239 --> 00:00:44,559
+these things text categorization
+
+18
+00:00:44,559 --> 00:00:46,960
+information retrieval information
+
+19
+00:00:46,960 --> 00:00:48,239
+extraction
+
+20
+00:00:48,239 --> 00:00:50,960
+you will learn all these things together
+
+21
+00:00:50,960 --> 00:00:52,559
+with me on this journey it's going to be
+
+22
+00:00:52,559 --> 00:00:55,120
+amazing so how does this work well this
+
+23
+00:00:55,120 --> 00:00:57,680
+course is structured in 15 lessons this
+
+24
+00:00:57,680 --> 00:01:00,160
+being the first one in each lesson we
+
+25
+00:01:00,160 --> 00:01:02,960
+will explore some new concept together
+
+26
+00:01:02,960 --> 00:01:05,519
+and then building up to a project where
+
+27
+00:01:05,519 --> 00:01:07,439
+you try it first and then i try to solve
+
+28
+00:01:07,439 --> 00:01:09,040
+it with you afterwards if you don't know
+
+29
+00:01:09,040 --> 00:01:10,640
+how to solve it right so this is going
+
+30
+00:01:10,640 --> 00:01:14,159
+to be 15 projects together it's gonna be
+
+31
+00:01:14,159 --> 00:01:17,600
+amazing so are you ready i thought so
+
+32
+00:01:17,600 --> 00:01:22,880
+let's get started
+
+33
+00:01:22,880 --> 00:01:25,280
+so you want to get started immediately i
+
+34
+00:01:25,280 --> 00:01:27,840
+like your style let's get to it so in
+
+35
+00:01:27,840 --> 00:01:29,280
+the description there's a link to my
+
+36
+00:01:29,280 --> 00:01:31,360
+github repository and it looks something
+
+37
+00:01:31,360 --> 00:01:33,360
+like this you see here there are a lot
+
+38
+00:01:33,360 --> 00:01:35,040
+of files and these are the notebooks
+
+39
+00:01:35,040 --> 00:01:36,960
+we're working with so each
+
+40
+00:01:36,960 --> 00:01:38,960
+lesson will have two notebooks the
+
+41
+00:01:38,960 --> 00:01:40,400
+lesson and the project that we're going
+
+42
+00:01:40,400 --> 00:01:42,479
+to make together and below here how do
+
+43
+00:01:42,479 --> 00:01:44,159
+you get started right so you download
+
+44
+00:01:44,159 --> 00:01:45,680
+all the jupyter notebooks by clicking on
+
+45
+00:01:45,680 --> 00:01:47,119
+this link here and you see immediately
+
+46
+00:01:47,119 --> 00:01:50,000
+boom it will start downloading and in
+
+47
+00:01:50,000 --> 00:01:51,119
+the meantime
+
+48
+00:01:51,119 --> 00:01:53,280
+while downloading let's just ensure you
+
+49
+00:01:53,280 --> 00:01:55,360
+have anaconda installed with jupyter
+
+50
+00:01:55,360 --> 00:01:57,040
+notebook if you don't you can get it
+
+51
+00:01:57,040 --> 00:01:59,200
+from here and you just click here and
+
+52
+00:01:59,200 --> 00:02:01,920
+you just download it here as well boom
+
+53
+00:02:01,920 --> 00:02:04,880
+and uh downloading starting okay good i
+
+54
+00:02:04,880 --> 00:02:06,320
+have it already installed so i don't
+
+55
+00:02:06,320 --> 00:02:09,679
+need so i need to so just go to the
+
+56
+00:02:09,679 --> 00:02:11,760
+file location here and check that you
+
+57
+00:02:11,760 --> 00:02:12,959
+got your
+
+58
+00:02:12,959 --> 00:02:14,879
+files from machine learning with python
+
+59
+00:02:14,879 --> 00:02:16,720
+here you have all the files here again
+
+60
+00:02:16,720 --> 00:02:18,560
+so it's all clear and you click the
+
+61
+00:02:18,560 --> 00:02:20,800
+first one here and then you're ready for
+
+62
+00:02:20,800 --> 00:02:23,520
+the first lesson here so let's start
+
+63
+00:02:23,520 --> 00:02:25,200
+together and dive into this it's gonna
+
+64
+00:02:25,200 --> 00:02:31,200
+be amazing see you in a moment
+
+65
+00:02:31,200 --> 00:02:34,080
+so here in our first lesson we're gonna
+
+66
+00:02:34,080 --> 00:02:36,400
+explore a bit what is the difference of
+
+67
+00:02:36,400 --> 00:02:39,440
+machine learning and classical computing
+
+68
+00:02:39,440 --> 00:02:41,360
+why is it so amazing and what is the
+
+69
+00:02:41,360 --> 00:02:43,280
+power of it and why is it so difficult
+
+70
+00:02:43,280 --> 00:02:45,280
+to solve these problems in classical
+
+71
+00:02:45,280 --> 00:02:47,599
+computing paradigms
+
+72
+00:02:47,599 --> 00:02:50,080
+and after that we're gonna jump into our
+
+73
+00:02:50,080 --> 00:02:52,239
+first model it's the k nearest
+
+74
+00:02:52,239 --> 00:02:54,560
+neighborhoods classifier which is
+
+75
+00:02:54,560 --> 00:02:56,640
+actually conceptually really easy to
+
+76
+00:02:56,640 --> 00:02:58,720
+understand which surprises many people
+
+77
+00:02:58,720 --> 00:03:00,560
+they think machine learning is very
+
+78
+00:03:00,560 --> 00:03:02,720
+complex to understand and
+
+79
+00:03:02,720 --> 00:03:04,640
+yeah it's because people often confuse
+
+80
+00:03:04,640 --> 00:03:07,040
+how you implement the models and how you
+
+81
+00:03:07,040 --> 00:03:08,480
+use them right
+
+82
+00:03:08,480 --> 00:03:09,519
+so
+
+83
+00:03:09,519 --> 00:03:11,519
+is it difficult to do machine learning
+
+84
+00:03:11,519 --> 00:03:13,680
+no not at all it's actually quite easy
+
+85
+00:03:13,680 --> 00:03:15,040
+because the concepts are easy to
+
+86
+00:03:15,040 --> 00:03:16,879
+understand and then you can do the magic
+
+87
+00:03:16,879 --> 00:03:18,480
+with the libraries many people get
+
+88
+00:03:18,480 --> 00:03:20,480
+confused about that so think about it
+
+89
+00:03:20,480 --> 00:03:21,920
+like this right
+
+90
+00:03:21,920 --> 00:03:24,080
+to drive a car do you need to be in car
+
+91
+00:03:24,080 --> 00:03:26,560
+mechanics no not really you need maybe
+
+92
+00:03:26,560 --> 00:03:28,319
+to understand there's an engine that
+
+93
+00:03:28,319 --> 00:03:29,840
+makes all the
+
+94
+00:03:29,840 --> 00:03:31,920
+car moving but that's all inside the car
+
+95
+00:03:31,920 --> 00:03:33,680
+you just need the dashboard and that's
+
+96
+00:03:33,680 --> 00:03:36,239
+all you need to use right to get from a
+
+97
+00:03:36,239 --> 00:03:38,400
+to b machine learning is the same thing
+
+98
+00:03:38,400 --> 00:03:40,239
+you need somehow to understand what is
+
+99
+00:03:40,239 --> 00:03:42,400
+it that the models do and we'll cover
+
+100
+00:03:42,400 --> 00:03:44,400
+that here and when you understand what
+
+101
+00:03:44,400 --> 00:03:46,080
+the models do and can help you with it's
+
+102
+00:03:46,080 --> 00:03:48,640
+actually quite easy to get that from a
+
+103
+00:03:48,640 --> 00:03:49,599
+to b
+
+104
+00:03:49,599 --> 00:03:52,400
+right so are you ready i hope so let's
+
+105
+00:03:52,400 --> 00:03:54,720
+jump to jupiter notebook and get started
+
+106
+00:03:54,720 --> 00:03:56,560
+here we are in our first jupiter
+
+107
+00:03:56,560 --> 00:03:57,840
+notebook
+
+108
+00:03:57,840 --> 00:04:00,959
+the k nearest neighborhood classifier
+
+109
+00:04:00,959 --> 00:04:02,799
+okay the goal of this lesson is
+
+110
+00:04:02,799 --> 00:04:04,239
+understand the difference between
+
+111
+00:04:04,239 --> 00:04:06,480
+classical computing and machine learning
+
+112
+00:04:06,480 --> 00:04:08,159
+to know that there are three main
+
+113
+00:04:08,159 --> 00:04:10,959
+categories of machine learning dive into
+
+114
+00:04:10,959 --> 00:04:13,120
+supervised learning classification with
+
+115
+00:04:13,120 --> 00:04:15,920
+k nearest neighborhood classifier knn
+
+116
+00:04:15,920 --> 00:04:18,959
+and how to classify data what are the
+
+117
+00:04:18,959 --> 00:04:21,600
+challenges uh with cleaning data and
+
+118
+00:04:21,600 --> 00:04:24,080
+create a project with real data on a k
+
+119
+00:04:24,080 --> 00:04:26,000
+nearest neighborhood classifier that
+
+120
+00:04:26,000 --> 00:04:28,080
+sounds like a lot right so let's get
+
+121
+00:04:28,080 --> 00:04:30,160
+started first of all let me just mention
+
+122
+00:04:30,160 --> 00:04:31,680
+that you can skip ahead if you want
+
+123
+00:04:31,680 --> 00:04:33,440
+there are some chapters
+
+124
+00:04:33,440 --> 00:04:35,360
+in the youtube video below so if you
+
+125
+00:04:35,360 --> 00:04:36,720
+know what machine learning is and you
+
+126
+00:04:36,720 --> 00:04:39,600
+don't want to cover that well skip ahead
+
+127
+00:04:39,600 --> 00:04:41,440
+right now let's get started with the
+
+128
+00:04:41,440 --> 00:04:44,479
+machine learning part so what is machine
+
+129
+00:04:44,479 --> 00:04:46,639
+learning well often it's easiest to
+
+130
+00:04:46,639 --> 00:04:48,400
+understand something if you're related
+
+131
+00:04:48,400 --> 00:04:51,600
+to something you know already so i don't
+
+132
+00:04:51,600 --> 00:04:53,280
+know how familiar you are with what's
+
+133
+00:04:53,280 --> 00:04:55,680
+called classical computing but
+
+134
+00:04:55,680 --> 00:04:57,680
+think of it like this if you need to
+
+135
+00:04:57,680 --> 00:04:59,680
+explain a child to do something right
+
+136
+00:04:59,680 --> 00:05:02,320
+you'll say do this when this and predict
+
+137
+00:05:02,320 --> 00:05:04,560
+this when you see that right you want to
+
+138
+00:05:04,560 --> 00:05:06,320
+say if you want to explain your kid to
+
+139
+00:05:06,320 --> 00:05:08,400
+go over the street say you will stop at
+
+140
+00:05:08,400 --> 00:05:10,479
+the at the cross section you have to
+
+141
+00:05:10,479 --> 00:05:12,240
+look each direction you need to make
+
+142
+00:05:12,240 --> 00:05:13,680
+sure that there are no cars if there are
+
+143
+00:05:13,680 --> 00:05:15,600
+no cars or the cars stop for you then
+
+144
+00:05:15,600 --> 00:05:17,680
+you can walk across right and keep keep
+
+145
+00:05:17,680 --> 00:05:19,360
+safe at all time right don't run don't
+
+146
+00:05:19,360 --> 00:05:22,000
+do that you have to explicitly tell the
+
+147
+00:05:22,000 --> 00:05:25,600
+child every single move what to do
+
+148
+00:05:25,600 --> 00:05:27,680
+that's kind of like classical computing
+
+149
+00:05:27,680 --> 00:05:30,320
+right so you tell each step to do and
+
+150
+00:05:30,320 --> 00:05:32,240
+what to do for each one single thing
+
+151
+00:05:32,240 --> 00:05:34,639
+right machine learning on the other hand
+
+152
+00:05:34,639 --> 00:05:37,520
+well you feed algorithms right so you
+
+153
+00:05:37,520 --> 00:05:40,400
+just give them data basically
+
+154
+00:05:40,400 --> 00:05:42,320
+and it's indirect computing and they
+
+155
+00:05:42,320 --> 00:05:44,560
+predict based on this data so you see
+
+156
+00:05:44,560 --> 00:05:46,240
+when you so they're different models
+
+157
+00:05:46,240 --> 00:05:47,759
+right we'll cover them just below here
+
+158
+00:05:47,759 --> 00:05:50,160
+in a moment but in theory it's just like
+
+159
+00:05:50,160 --> 00:05:52,960
+you feed data and you maybe you tell
+
+160
+00:05:52,960 --> 00:05:54,400
+them when you see this data this means
+
+161
+00:05:54,400 --> 00:05:56,240
+this and then it figures things out
+
+162
+00:05:56,240 --> 00:05:59,600
+themselves it's like learning by itself
+
+163
+00:05:59,600 --> 00:06:00,639
+wow
+
+164
+00:06:00,639 --> 00:06:02,000
+right
+
+165
+00:06:02,000 --> 00:06:04,160
+so on a high level
+
+166
+00:06:04,160 --> 00:06:06,080
+machine learning is often divided into
+
+167
+00:06:06,080 --> 00:06:09,039
+two phases there is like a learning
+
+168
+00:06:09,039 --> 00:06:12,000
+phase and a prediction phase
+
+169
+00:06:12,000 --> 00:06:14,720
+so in the learning phase
+
+170
+00:06:14,720 --> 00:06:17,600
+it's quite easy it's often divided into
+
+171
+00:06:17,600 --> 00:06:19,360
+sub steps again right so you have the
+
+172
+00:06:19,360 --> 00:06:22,400
+get data pre-processing train model and
+
+173
+00:06:22,400 --> 00:06:23,600
+test model
+
+174
+00:06:23,600 --> 00:06:25,759
+so the get data it's like a data
+
+175
+00:06:25,759 --> 00:06:27,600
+collection right so it's like
+
+176
+00:06:27,600 --> 00:06:30,479
+okay you need to explore something about
+
+177
+00:06:30,479 --> 00:06:32,000
+the world economy where do you find
+
+178
+00:06:32,000 --> 00:06:33,680
+information well go to the internet you
+
+179
+00:06:33,680 --> 00:06:35,600
+have these six hundred or six thousand
+
+180
+00:06:35,600 --> 00:06:37,680
+or six million web pages with
+
+181
+00:06:37,680 --> 00:06:39,919
+information about it so that's a data
+
+182
+00:06:39,919 --> 00:06:41,440
+collection right so now you have let's
+
+183
+00:06:41,440 --> 00:06:45,280
+say six million web pages which contains
+
+184
+00:06:45,280 --> 00:06:47,520
+information about world economy that can
+
+185
+00:06:47,520 --> 00:06:49,759
+be articles it can be data from the
+
+186
+00:06:49,759 --> 00:06:51,759
+government it can be anything it can be
+
+187
+00:06:51,759 --> 00:06:53,840
+the largest companies that influence the
+
+188
+00:06:53,840 --> 00:06:56,479
+world and so on a lot of data
+
+189
+00:06:56,479 --> 00:06:57,759
+well
+
+190
+00:06:57,759 --> 00:06:59,680
+wait a minute so if you have that you
+
+191
+00:06:59,680 --> 00:07:02,160
+need to kind of prepare the data that is
+
+192
+00:07:02,160 --> 00:07:05,360
+clean prepare and manipulate sometimes
+
+193
+00:07:05,360 --> 00:07:08,479
+so you imagine right so you need to have
+
+194
+00:07:08,479 --> 00:07:10,880
+the data in the same structure it will
+
+195
+00:07:10,880 --> 00:07:12,319
+be the same for you if you're looking at
+
+196
+00:07:12,319 --> 00:07:14,840
+financial data like
+
+197
+00:07:14,840 --> 00:07:18,400
+uh sheets and all that kind of stuff
+
+198
+00:07:18,400 --> 00:07:20,560
+well that will be one mindset but if
+
+199
+00:07:20,560 --> 00:07:22,000
+you're reading articles that would be
+
+200
+00:07:22,000 --> 00:07:23,599
+different what what is it you need to
+
+201
+00:07:23,599 --> 00:07:25,919
+extract from these articles does it say
+
+202
+00:07:25,919 --> 00:07:28,800
+it's good or bad or i mean
+
+203
+00:07:28,800 --> 00:07:30,479
+it depends right
+
+204
+00:07:30,479 --> 00:07:32,960
+and when you do want to train a model
+
+205
+00:07:32,960 --> 00:07:34,400
+the model needs to understand it so it
+
+206
+00:07:34,400 --> 00:07:36,080
+needs to be prepared in a similar
+
+207
+00:07:36,080 --> 00:07:38,720
+fashion most models take data which are
+
+208
+00:07:38,720 --> 00:07:40,960
+very similar
+
+209
+00:07:40,960 --> 00:07:42,560
+so that's what the pre-processing is
+
+210
+00:07:42,560 --> 00:07:43,520
+about
+
+211
+00:07:43,520 --> 00:07:45,680
+train the model right well there are
+
+212
+00:07:45,680 --> 00:07:48,000
+three main categories here right they're
+
+213
+00:07:48,000 --> 00:07:49,440
+explained down here it's supervised
+
+214
+00:07:49,440 --> 00:07:51,199
+unsupervised and reinforcement just like
+
+215
+00:07:51,199 --> 00:07:53,680
+it says here right supervised is often
+
+216
+00:07:53,680 --> 00:07:55,120
+the one you start with and we will do
+
+217
+00:07:55,120 --> 00:07:57,440
+that again here well here you actually
+
+218
+00:07:57,440 --> 00:07:59,280
+give the algorithm a lot of data and he
+
+219
+00:07:59,280 --> 00:08:02,319
+says when you see this this is this kind
+
+220
+00:08:02,319 --> 00:08:03,840
+of output right so it can be
+
+221
+00:08:03,840 --> 00:08:06,080
+classification like we're gonna do right
+
+222
+00:08:06,080 --> 00:08:08,080
+and it's gonna be like here you see a
+
+223
+00:08:08,080 --> 00:08:10,160
+picture of a monkey and here you see a
+
+224
+00:08:10,160 --> 00:08:12,400
+picture of a car here you see a picture
+
+225
+00:08:12,400 --> 00:08:14,479
+of a bird here you see a picture of an
+
+226
+00:08:14,479 --> 00:08:16,479
+airplane right and you give a bunch of
+
+227
+00:08:16,479 --> 00:08:19,520
+that so you actually tag the pictures
+
+228
+00:08:19,520 --> 00:08:21,520
+and say this is the result you want and
+
+229
+00:08:21,520 --> 00:08:23,759
+then you feed a lot of
+
+230
+00:08:23,759 --> 00:08:26,000
+input to the algorithm and it figures
+
+231
+00:08:26,000 --> 00:08:28,639
+out when it sees something new well
+
+232
+00:08:28,639 --> 00:08:30,639
+what is this well you see this picture
+
+233
+00:08:30,639 --> 00:08:33,839
+then yeah this is a monkey
+
+234
+00:08:33,839 --> 00:08:35,440
+so that's the training part and then
+
+235
+00:08:35,440 --> 00:08:38,959
+there's like the test the model well
+
+236
+00:08:38,959 --> 00:08:41,599
+you need often you divide the input set
+
+237
+00:08:41,599 --> 00:08:44,000
+in a training set and a test set because
+
+238
+00:08:44,000 --> 00:08:45,760
+you need some data which you already
+
+239
+00:08:45,760 --> 00:08:47,680
+know what the result should be just to
+
+240
+00:08:47,680 --> 00:08:49,360
+test the
+
+241
+00:08:49,360 --> 00:08:51,440
+complexity of it right so does it does
+
+242
+00:08:51,440 --> 00:08:54,320
+it fulfill does it does it predict well
+
+243
+00:08:54,320 --> 00:08:57,200
+enough so that's the magic right you
+
+244
+00:08:57,200 --> 00:08:59,040
+make some kind of model and then you
+
+245
+00:08:59,040 --> 00:09:00,720
+test if the model is good enough you
+
+246
+00:09:00,720 --> 00:09:02,000
+need to test on some data that you know
+
+247
+00:09:02,000 --> 00:09:03,760
+the results of so you can see if it
+
+248
+00:09:03,760 --> 00:09:06,000
+predicts correctly
+
+249
+00:09:06,000 --> 00:09:08,560
+yeah exciting right because this is
+
+250
+00:09:08,560 --> 00:09:11,839
+after that uh yeah just maybe mention
+
+251
+00:09:11,839 --> 00:09:14,240
+that often here in the test model here
+
+252
+00:09:14,240 --> 00:09:16,560
+you'll just realize you're not satisfied
+
+253
+00:09:16,560 --> 00:09:18,480
+so you go back and train the model again
+
+254
+00:09:18,480 --> 00:09:20,399
+or you find out your data is not clean
+
+255
+00:09:20,399 --> 00:09:21,839
+enough it doesn't understand some of the
+
+256
+00:09:21,839 --> 00:09:23,519
+data you need to do something here or
+
+257
+00:09:23,519 --> 00:09:25,680
+you find more data sources so this is
+
+258
+00:09:25,680 --> 00:09:27,600
+process that goes on and on and come
+
+259
+00:09:27,600 --> 00:09:30,240
+back and forth right here right you get
+
+260
+00:09:30,240 --> 00:09:32,640
+more data you figure out that you need
+
+261
+00:09:32,640 --> 00:09:34,320
+to
+
+262
+00:09:34,320 --> 00:09:36,720
+you need to pre-process data more
+
+263
+00:09:36,720 --> 00:09:38,480
+specifically or you need to train the
+
+264
+00:09:38,480 --> 00:09:40,240
+model in different ways to make a new
+
+265
+00:09:40,240 --> 00:09:41,680
+model because it doesn't predict well
+
+266
+00:09:41,680 --> 00:09:44,080
+enough right so this is what we are
+
+267
+00:09:44,080 --> 00:09:46,560
+doing i mean this is this is a fun part
+
+268
+00:09:46,560 --> 00:09:48,160
+right because afterwards it's just
+
+269
+00:09:48,160 --> 00:09:50,160
+prediction right so you get some input
+
+270
+00:09:50,160 --> 00:09:52,959
+which are which should be similar to the
+
+271
+00:09:52,959 --> 00:09:54,720
+input that you gave in the training
+
+272
+00:09:54,720 --> 00:09:56,800
+phase and then it will be making some
+
+273
+00:09:56,800 --> 00:09:58,399
+predictions right it gets input and
+
+274
+00:09:58,399 --> 00:10:01,120
+predict input predict right
+
+275
+00:10:01,120 --> 00:10:04,079
+you understand that i think so good
+
+276
+00:10:04,079 --> 00:10:06,480
+amazing next step here so now we're
+
+277
+00:10:06,480 --> 00:10:08,320
+going to talk a bit about supervised
+
+278
+00:10:08,320 --> 00:10:10,320
+learning what is supervised learning
+
+279
+00:10:10,320 --> 00:10:12,320
+well i told you already here but let's
+
+280
+00:10:12,320 --> 00:10:14,560
+dive a bit more into it
+
+281
+00:10:14,560 --> 00:10:17,519
+so set simply in supervised learning you
+
+282
+00:10:17,519 --> 00:10:19,920
+are giving input output pairs
+
+283
+00:10:19,920 --> 00:10:20,720
+uh
+
+284
+00:10:20,720 --> 00:10:22,640
+and learn a function to map input to
+
+285
+00:10:22,640 --> 00:10:24,480
+outputs right so you give them for
+
+286
+00:10:24,480 --> 00:10:26,800
+instance a bunch of images like this is
+
+287
+00:10:26,800 --> 00:10:29,040
+an airplane this is a bird this is
+
+288
+00:10:29,040 --> 00:10:30,959
+another airplane you give a bunch of
+
+289
+00:10:30,959 --> 00:10:32,880
+those and say these are
+
+290
+00:10:32,880 --> 00:10:34,480
+you when you see a picture like this you
+
+291
+00:10:34,480 --> 00:10:36,399
+should predict it's an airplane when you
+
+292
+00:10:36,399 --> 00:10:37,519
+see a picture like this you should
+
+293
+00:10:37,519 --> 00:10:40,240
+predict this is a bird right
+
+294
+00:10:40,240 --> 00:10:41,920
+yeah okay
+
+295
+00:10:41,920 --> 00:10:43,920
+then there are different tasks but we
+
+296
+00:10:43,920 --> 00:10:45,519
+start to focus on this classification
+
+297
+00:10:45,519 --> 00:10:48,480
+right it's so it doesn't only have to be
+
+298
+00:10:48,480 --> 00:10:50,240
+the task that i'm doing here but this is
+
+299
+00:10:50,240 --> 00:10:52,720
+classification you say when you see this
+
+300
+00:10:52,720 --> 00:10:54,480
+this is this classification if you see
+
+301
+00:10:54,480 --> 00:10:56,880
+this and you see this one right and now
+
+302
+00:10:56,880 --> 00:10:58,480
+we're going to start our first example
+
+303
+00:10:58,480 --> 00:11:00,959
+are you excited i hope so because i am
+
+304
+00:11:00,959 --> 00:11:03,839
+i'm really excited about this so
+
+305
+00:11:03,839 --> 00:11:06,079
+we are going to predict if it's going to
+
+306
+00:11:06,079 --> 00:11:06,880
+rain
+
+307
+00:11:06,880 --> 00:11:08,000
+and
+
+308
+00:11:08,000 --> 00:11:10,480
+just be sure you know it this is real
+
+309
+00:11:10,480 --> 00:11:12,000
+theta so
+
+310
+00:11:12,000 --> 00:11:14,079
+also i'll also reveal to you we're not
+
+311
+00:11:14,079 --> 00:11:16,800
+going to predict 100 accurate
+
+312
+00:11:16,800 --> 00:11:19,040
+did you ever have a weather forecast
+
+313
+00:11:19,040 --> 00:11:21,120
+that was 100 accurate i don't know where
+
+314
+00:11:21,120 --> 00:11:22,640
+you're living but i'm living in denmark
+
+315
+00:11:22,640 --> 00:11:24,240
+and i would say in
+
+316
+00:11:24,240 --> 00:11:26,720
+more than 50 i would say almost 50 of
+
+317
+00:11:26,720 --> 00:11:28,880
+the time the weather forecast in denmark
+
+318
+00:11:28,880 --> 00:11:31,519
+is wrong it's off they predict rain it
+
+319
+00:11:31,519 --> 00:11:33,839
+doesn't rain they predict no rain it
+
+320
+00:11:33,839 --> 00:11:35,279
+starts to rain
+
+321
+00:11:35,279 --> 00:11:37,120
+so it's a difficult task
+
+322
+00:11:37,120 --> 00:11:38,480
+okay
+
+323
+00:11:38,480 --> 00:11:40,880
+here we have some historical data and in
+
+324
+00:11:40,880 --> 00:11:42,800
+the first task here we're going to limit
+
+325
+00:11:42,800 --> 00:11:45,040
+it to only two
+
+326
+00:11:45,040 --> 00:11:46,480
+metrics right so it's going to be going
+
+327
+00:11:46,480 --> 00:11:49,360
+to be the humidity and the pressure
+
+328
+00:11:49,360 --> 00:11:52,240
+so given the humidity of 93
+
+329
+00:11:52,240 --> 00:11:55,040
+and the pressure of 99.7
+
+330
+00:11:55,040 --> 00:11:57,360
+it was raining
+
+331
+00:11:57,360 --> 00:11:59,120
+the day after it was raining so this is
+
+332
+00:11:59,120 --> 00:12:00,959
+predicting the day after right so this
+
+333
+00:12:00,959 --> 00:12:01,760
+is
+
+334
+00:12:01,760 --> 00:12:04,320
+the data here is current day and the
+
+335
+00:12:04,320 --> 00:12:07,200
+rain on no rain it's the day afterwards
+
+336
+00:12:07,200 --> 00:12:09,360
+right so this is the prediction we say
+
+337
+00:12:09,360 --> 00:12:11,839
+humidity pressure today does it rain
+
+338
+00:12:11,839 --> 00:12:13,200
+tomorrow
+
+339
+00:12:13,200 --> 00:12:15,120
+or no rain right so we have some data
+
+340
+00:12:15,120 --> 00:12:16,800
+here uh
+
+341
+00:12:16,800 --> 00:12:19,440
+in this case it was rain rain no
+
+342
+00:12:19,440 --> 00:12:22,320
+no no rain no rain no rain rain rain
+
+343
+00:12:22,320 --> 00:12:25,600
+right i even i cannot say it okay
+
+344
+00:12:25,600 --> 00:12:26,560
+so
+
+345
+00:12:26,560 --> 00:12:28,320
+our goal is to have a supervised
+
+346
+00:12:28,320 --> 00:12:29,680
+learning
+
+347
+00:12:29,680 --> 00:12:31,680
+as it has the labels right so we have
+
+348
+00:12:31,680 --> 00:12:34,000
+the label here rain no rain said a bit
+
+349
+00:12:34,000 --> 00:12:35,920
+differently the task of supervised
+
+350
+00:12:35,920 --> 00:12:38,160
+learning right simply explained i did
+
+351
+00:12:38,160 --> 00:12:40,399
+that above there but let's do it more
+
+352
+00:12:40,399 --> 00:12:42,160
+mathematically so if you're
+
+353
+00:12:42,160 --> 00:12:44,399
+uncomfortable about all this writing i'm
+
+354
+00:12:44,399 --> 00:12:46,399
+doing right now don't worry so much
+
+355
+00:12:46,399 --> 00:12:47,839
+about it it's just some people they
+
+356
+00:12:47,839 --> 00:12:50,079
+prefer it in a mathematical way so we
+
+357
+00:12:50,079 --> 00:12:52,639
+have a function here a function and
+
+358
+00:12:52,639 --> 00:12:55,040
+ideally we have a function
+
+359
+00:12:55,040 --> 00:12:56,639
+this function should ideally just take
+
+360
+00:12:56,639 --> 00:12:58,639
+the humidity and pressure and predict
+
+361
+00:12:58,639 --> 00:13:00,920
+right so if we take the 93
+
+362
+00:13:00,920 --> 00:13:03,920
+99.7 it should predict as we see here it
+
+363
+00:13:03,920 --> 00:13:05,760
+should predict rain and if we take the
+
+364
+00:13:05,760 --> 00:13:07,680
+second row here it should say no rain
+
+365
+00:13:07,680 --> 00:13:10,000
+and third row here no rain and so forth
+
+366
+00:13:10,000 --> 00:13:12,000
+that's ideal
+
+367
+00:13:12,000 --> 00:13:14,880
+but as you probably know
+
+368
+00:13:14,880 --> 00:13:16,399
+at least i haven't seen a weather
+
+369
+00:13:16,399 --> 00:13:19,920
+forecast that was 100 accurate we cannot
+
+370
+00:13:19,920 --> 00:13:22,079
+make this function here it's it's
+
+371
+00:13:22,079 --> 00:13:24,160
+basically probably impossible there are
+
+372
+00:13:24,160 --> 00:13:25,839
+too many variables that
+
+373
+00:13:25,839 --> 00:13:27,839
+you have to take into account right
+
+374
+00:13:27,839 --> 00:13:29,120
+maybe you heard about the butterfly
+
+375
+00:13:29,120 --> 00:13:31,600
+effect right so
+
+376
+00:13:31,600 --> 00:13:33,279
+that's a side track but the butterfly
+
+377
+00:13:33,279 --> 00:13:34,639
+effect is that
+
+378
+00:13:34,639 --> 00:13:37,120
+the wings of a butterfly
+
+379
+00:13:37,120 --> 00:13:39,279
+in i don't know in
+
+380
+00:13:39,279 --> 00:13:42,880
+amazon can affect a hurricane in
+
+381
+00:13:42,880 --> 00:13:45,040
+antarctica or something like that i
+
+382
+00:13:45,040 --> 00:13:46,639
+don't remember exactly the locations but
+
+383
+00:13:46,639 --> 00:13:49,360
+that's a thing right so you see the key
+
+384
+00:13:49,360 --> 00:13:52,320
+thing is that small things can
+
+385
+00:13:52,320 --> 00:13:54,480
+influence the results
+
+386
+00:13:54,480 --> 00:13:55,360
+so
+
+387
+00:13:55,360 --> 00:13:58,320
+finding the 100 accurate function here
+
+388
+00:13:58,320 --> 00:14:01,360
+is not something you should aim for
+
+389
+00:14:01,360 --> 00:14:03,440
+so what are we aiming for we are aiming
+
+390
+00:14:03,440 --> 00:14:07,120
+for approximating this function f
+
+391
+00:14:07,120 --> 00:14:09,600
+and we often denote it h
+
+392
+00:14:09,600 --> 00:14:12,399
+so let's start by visualizing that okay
+
+393
+00:14:12,399 --> 00:14:13,839
+so this is always a good idea just to
+
+394
+00:14:13,839 --> 00:14:16,639
+say okay we have two
+
+395
+00:14:16,639 --> 00:14:19,279
+metrics here so let's try to visualize
+
+396
+00:14:19,279 --> 00:14:21,279
+the results when we have two metrics and
+
+397
+00:14:21,279 --> 00:14:23,199
+a classification we can actually do that
+
+398
+00:14:23,199 --> 00:14:25,360
+in a 2d plane right
+
+399
+00:14:25,360 --> 00:14:27,279
+which we can see often when you have
+
+400
+00:14:27,279 --> 00:14:29,199
+more metrics you cannot so that's why we
+
+401
+00:14:29,199 --> 00:14:32,320
+start with two it's easy to visualize
+
+402
+00:14:32,320 --> 00:14:34,320
+so what's going to happen a lot
+
+403
+00:14:34,320 --> 00:14:36,160
+along the course here is like there are
+
+404
+00:14:36,160 --> 00:14:38,160
+going to be some programming nodes and
+
+405
+00:14:38,160 --> 00:14:40,880
+these programming nodes are easy
+
+406
+00:14:40,880 --> 00:14:42,480
+for you to look up if you're not
+
+407
+00:14:42,480 --> 00:14:44,079
+familiar with the things right so for
+
+408
+00:14:44,079 --> 00:14:45,680
+instance we're going to use pandas if
+
+409
+00:14:45,680 --> 00:14:47,600
+you don't know what pandas are well you
+
+410
+00:14:47,600 --> 00:14:49,760
+can look it up here so what is pandas
+
+411
+00:14:49,760 --> 00:14:51,360
+and you can look a bit
+
+412
+00:14:51,360 --> 00:14:53,279
+yeah get the book and buy the book and
+
+413
+00:14:53,279 --> 00:14:54,959
+all that kind of stuff i'm not related
+
+414
+00:14:54,959 --> 00:14:57,120
+to them so don't think of that and then
+
+415
+00:14:57,120 --> 00:14:59,680
+this matplotlib and also some of the
+
+416
+00:14:59,680 --> 00:15:03,120
+things uh which i find is more useful
+
+417
+00:15:03,120 --> 00:15:04,320
+it's like okay if you don't know
+
+418
+00:15:04,320 --> 00:15:07,199
+matplotlib and the way i like to use it
+
+419
+00:15:07,199 --> 00:15:09,680
+well i have a lecture on visualization
+
+420
+00:15:09,680 --> 00:15:11,920
+here so you can click that and it will
+
+421
+00:15:11,920 --> 00:15:15,920
+start immediately playing and also
+
+422
+00:15:15,920 --> 00:15:17,920
+we use a lot of csv files what is the
+
+423
+00:15:17,920 --> 00:15:21,279
+csv files there's a lecture on it here
+
+424
+00:15:21,279 --> 00:15:24,880
+simply said a csv file is simply just a
+
+425
+00:15:24,880 --> 00:15:27,120
+comma separated file so let's find the
+
+426
+00:15:27,120 --> 00:15:30,399
+weather data here here we have it
+
+427
+00:15:30,399 --> 00:15:32,480
+and it can look a bit scary when you
+
+428
+00:15:32,480 --> 00:15:34,000
+look at it here right so this is
+
+429
+00:15:34,000 --> 00:15:36,079
+actually the data we are looking at
+
+430
+00:15:36,079 --> 00:15:39,600
+and it has a long row here of the
+
+431
+00:15:39,600 --> 00:15:42,079
+column names in a state
+
+432
+00:15:42,079 --> 00:15:44,000
+mint temperature and all that kind of
+
+433
+00:15:44,000 --> 00:15:46,000
+stuff and then have the data down here
+
+434
+00:15:46,000 --> 00:15:47,360
+and it can be confusing to see if you
+
+435
+00:15:47,360 --> 00:15:50,079
+don't know what it is i advise you to go
+
+436
+00:15:50,079 --> 00:15:52,639
+and look at that lecture
+
+437
+00:15:52,639 --> 00:15:54,800
+and uh come back here
+
+438
+00:15:54,800 --> 00:15:56,720
+and then we're going to read read this
+
+439
+00:15:56,720 --> 00:15:58,639
+issue we're going to apply the read csv
+
+440
+00:15:58,639 --> 00:16:02,079
+from the pandas here and again as a link
+
+441
+00:16:02,079 --> 00:16:04,399
+to the page if you want to read a bit
+
+442
+00:16:04,399 --> 00:16:05,759
+more about it so these are the dark
+
+443
+00:16:05,759 --> 00:16:07,759
+pages i know in the beginning if you're
+
+444
+00:16:07,759 --> 00:16:09,120
+new to programming it can be a bit
+
+445
+00:16:09,120 --> 00:16:10,560
+confusing to see
+
+446
+00:16:10,560 --> 00:16:12,240
+what wait a minute what i'm supposed to
+
+447
+00:16:12,240 --> 00:16:15,120
+look at and at these pages here right
+
+448
+00:16:15,120 --> 00:16:17,440
+but basically
+
+449
+00:16:17,440 --> 00:16:21,120
+if you scroll down
+
+450
+00:16:21,120 --> 00:16:22,880
+there are examples okay this one is
+
+451
+00:16:22,880 --> 00:16:25,360
+quite simple example right but basically
+
+452
+00:16:25,360 --> 00:16:26,720
+often the examples of what you need to
+
+453
+00:16:26,720 --> 00:16:29,120
+know is written down here so here for
+
+454
+00:16:29,120 --> 00:16:32,560
+instance read pd read csv
+
+455
+00:16:32,560 --> 00:16:34,320
+that's all you need to know
+
+456
+00:16:34,320 --> 00:16:35,199
+and
+
+457
+00:16:35,199 --> 00:16:36,720
+i must say if you see this the first
+
+458
+00:16:36,720 --> 00:16:37,680
+time when this is first time you're
+
+459
+00:16:37,680 --> 00:16:39,759
+programming well
+
+460
+00:16:39,759 --> 00:16:41,759
+this is this is not the best example but
+
+461
+00:16:41,759 --> 00:16:43,600
+most of these documentation actually
+
+462
+00:16:43,600 --> 00:16:46,240
+have quite good examples there so
+
+463
+00:16:46,240 --> 00:16:48,079
+i would advise you to read them and then
+
+464
+00:16:48,079 --> 00:16:49,839
+we're gonna use a list comprehension and
+
+465
+00:16:49,839 --> 00:16:51,680
+we're going to do that a lot in this
+
+466
+00:16:51,680 --> 00:16:53,360
+course here so i also advise you if
+
+467
+00:16:53,360 --> 00:16:54,959
+you're new to list comprehension and the
+
+468
+00:16:54,959 --> 00:16:56,560
+dictionary convention and set
+
+469
+00:16:56,560 --> 00:16:58,880
+comprehension i would advise you to go
+
+470
+00:16:58,880 --> 00:17:00,079
+to this lecture this lecture is
+
+471
+00:17:00,079 --> 00:17:02,079
+structured exactly the same way that
+
+472
+00:17:02,079 --> 00:17:04,000
+these lectures are done so there's some
+
+473
+00:17:04,000 --> 00:17:06,559
+information and then you do a project
+
+474
+00:17:06,559 --> 00:17:08,400
+and then you can see how i would solve
+
+475
+00:17:08,400 --> 00:17:10,720
+the project together with you okay
+
+476
+00:17:10,720 --> 00:17:12,319
+awesome so
+
+477
+00:17:12,319 --> 00:17:14,799
+when you see programming notes well it's
+
+478
+00:17:14,799 --> 00:17:16,400
+for you to enjoy if there's something
+
+479
+00:17:16,400 --> 00:17:18,559
+new here i would try to have links to
+
+480
+00:17:18,559 --> 00:17:21,360
+everything we are using here so if this
+
+481
+00:17:21,360 --> 00:17:24,160
+is confusing well read about it
+
+482
+00:17:24,160 --> 00:17:25,520
+google about it
+
+483
+00:17:25,520 --> 00:17:27,039
+i try to have links to everything you
+
+484
+00:17:27,039 --> 00:17:30,400
+need to know perfect so are you ready
+
+485
+00:17:30,400 --> 00:17:32,640
+i think so now we are getting to the
+
+486
+00:17:32,640 --> 00:17:35,919
+coding part this is the exciting stuff i
+
+487
+00:17:35,919 --> 00:17:38,400
+know so what are we going to do well
+
+488
+00:17:38,400 --> 00:17:40,960
+we're going to import pandas
+
+489
+00:17:40,960 --> 00:17:44,640
+as pd so you probably notice it's a pd
+
+490
+00:17:44,640 --> 00:17:46,400
+dot read csv right
+
+491
+00:17:46,400 --> 00:17:48,400
+and it's because when you import pandas
+
+492
+00:17:48,400 --> 00:17:50,559
+the standard is to do it as pd so it
+
+493
+00:17:50,559 --> 00:17:52,240
+means actually when you import pandas it
+
+494
+00:17:52,240 --> 00:17:53,840
+is spd
+
+495
+00:17:53,840 --> 00:17:55,919
+you probably know that i don't know i
+
+496
+00:17:55,919 --> 00:17:58,640
+don't know who we are but now you know
+
+497
+00:17:58,640 --> 00:17:59,600
+good
+
+498
+00:17:59,600 --> 00:18:01,919
+and now we are ready to read the data
+
+499
+00:18:01,919 --> 00:18:05,440
+okay so pd read csv
+
+500
+00:18:05,440 --> 00:18:07,520
+and you see you can okay you can
+
+501
+00:18:07,520 --> 00:18:10,480
+autocomplete here and
+
+502
+00:18:10,480 --> 00:18:13,520
+we know it's in files and we know it was
+
+503
+00:18:13,520 --> 00:18:15,200
+weather data right and you can
+
+504
+00:18:15,200 --> 00:18:17,440
+autocomplete by tapping here and let's
+
+505
+00:18:17,440 --> 00:18:20,799
+just try to read it here
+
+506
+00:18:20,799 --> 00:18:22,240
+and what i like to do is just to take
+
+507
+00:18:22,240 --> 00:18:24,960
+the head it's often how you do it so
+
+508
+00:18:24,960 --> 00:18:26,640
+there are a couple of things here right
+
+509
+00:18:26,640 --> 00:18:28,559
+so when you read data
+
+510
+00:18:28,559 --> 00:18:30,559
+one thing which is
+
+511
+00:18:30,559 --> 00:18:32,640
+often happening is the date here it's
+
+512
+00:18:32,640 --> 00:18:35,280
+not parsed as a date actually we're not
+
+513
+00:18:35,280 --> 00:18:37,360
+going to use the date here but sometimes
+
+514
+00:18:37,360 --> 00:18:39,520
+it's just nice to parse the date so
+
+515
+00:18:39,520 --> 00:18:41,520
+often what i use is parse
+
+516
+00:18:41,520 --> 00:18:43,520
+par states to be true
+
+517
+00:18:43,520 --> 00:18:45,280
+another thing is okay so the date is
+
+518
+00:18:45,280 --> 00:18:46,960
+actually the index column right so you
+
+519
+00:18:46,960 --> 00:18:48,960
+can say index
+
+520
+00:18:48,960 --> 00:18:51,360
+call i think yeah zero right and how do
+
+521
+00:18:51,360 --> 00:18:54,160
+i know all these things well i auto tab
+
+522
+00:18:54,160 --> 00:18:57,200
+you can also get the web the doc string
+
+523
+00:18:57,200 --> 00:18:59,840
+here so you can see okay and like
+
+524
+00:18:59,840 --> 00:19:01,520
+especially specifically with this read
+
+525
+00:19:01,520 --> 00:19:03,360
+csv there's so many things here so it
+
+526
+00:19:03,360 --> 00:19:05,440
+can be a bit confusing but most don't
+
+527
+00:19:05,440 --> 00:19:08,160
+have that many things but if you look at
+
+528
+00:19:08,160 --> 00:19:10,080
+for instance here we found index call
+
+529
+00:19:10,080 --> 00:19:11,039
+here
+
+530
+00:19:11,039 --> 00:19:12,960
+and it says an integer or string so you
+
+531
+00:19:12,960 --> 00:19:15,520
+can actually also set it as the
+
+532
+00:19:15,520 --> 00:19:16,960
+column name
+
+533
+00:19:16,960 --> 00:19:17,760
+and
+
+534
+00:19:17,760 --> 00:19:20,160
+or sequence of ins if they have multiple
+
+535
+00:19:20,160 --> 00:19:21,200
+right
+
+536
+00:19:21,200 --> 00:19:22,640
+and then you can set the index so let's
+
+537
+00:19:22,640 --> 00:19:25,520
+just try to do that okay so now we see
+
+538
+00:19:25,520 --> 00:19:27,679
+the difference here the date is out here
+
+539
+00:19:27,679 --> 00:19:30,720
+and actually the date now is a
+
+540
+00:19:30,720 --> 00:19:33,120
+date index it should be at least let's
+
+541
+00:19:33,120 --> 00:19:35,039
+just try to see that actually
+
+542
+00:19:35,039 --> 00:19:37,200
+data index
+
+543
+00:19:37,200 --> 00:19:39,600
+you see here date time index so now it's
+
+544
+00:19:39,600 --> 00:19:41,120
+a date time index right it looks like
+
+545
+00:19:41,120 --> 00:19:43,120
+strings but it is date time because it
+
+546
+00:19:43,120 --> 00:19:45,120
+says date time here
+
+547
+00:19:45,120 --> 00:19:48,480
+awesome perfect i like it
+
+548
+00:19:48,480 --> 00:19:51,600
+perfect so let's get started so
+
+549
+00:19:51,600 --> 00:19:53,200
+what is it that we want to do now right
+
+550
+00:19:53,200 --> 00:19:56,000
+we wanted to look at the columns that
+
+551
+00:19:56,000 --> 00:19:58,480
+were defined up here we're called
+
+552
+00:19:58,480 --> 00:20:01,360
+humidity and pressure we don't exactly
+
+553
+00:20:01,360 --> 00:20:04,400
+have those but we have humidity at 3 pm
+
+554
+00:20:04,400 --> 00:20:08,400
+and we have pressure 3 pm also 9 am okay
+
+555
+00:20:08,400 --> 00:20:10,799
+so let's actually take that so how can
+
+556
+00:20:10,799 --> 00:20:12,559
+you do that you can say data set for
+
+557
+00:20:12,559 --> 00:20:16,000
+instance and you assign that to data
+
+558
+00:20:16,000 --> 00:20:17,840
+and then you make
+
+559
+00:20:17,840 --> 00:20:20,080
+what columns you want to pick here and
+
+560
+00:20:20,080 --> 00:20:21,520
+let's
+
+561
+00:20:21,520 --> 00:20:28,720
+i'm really good at typing wrong
+
+562
+00:20:28,720 --> 00:20:34,080
+okay so let's just copy them
+
+563
+00:20:34,080 --> 00:20:37,039
+and we also need actually the prediction
+
+564
+00:20:37,039 --> 00:20:37,919
+right
+
+565
+00:20:37,919 --> 00:20:42,640
+rain tomorrow and it says yes no
+
+566
+00:20:42,640 --> 00:20:45,200
+okay so that's our data set so looking
+
+567
+00:20:45,200 --> 00:20:49,919
+at our data set now
+
+568
+00:20:49,919 --> 00:20:51,840
+you see here now it's way cleaner to
+
+569
+00:20:51,840 --> 00:20:53,679
+look at and i often advise if you're not
+
+570
+00:20:53,679 --> 00:20:56,720
+using data just remove it remove it
+
+571
+00:20:56,720 --> 00:20:58,559
+because it makes your life easier and
+
+572
+00:20:58,559 --> 00:21:01,200
+you don't do confusing things right
+
+573
+00:21:01,200 --> 00:21:04,480
+good so here we are so let's try to
+
+574
+00:21:04,480 --> 00:21:06,480
+visualize it and i like to use
+
+575
+00:21:06,480 --> 00:21:08,320
+matplotlib
+
+576
+00:21:08,320 --> 00:21:10,000
+import matte
+
+577
+00:21:10,000 --> 00:21:14,159
+plot lip pie plot
+
+578
+00:21:14,159 --> 00:21:17,280
+as plt and in notebook you can have
+
+579
+00:21:17,280 --> 00:21:18,960
+different modes
+
+580
+00:21:18,960 --> 00:21:20,880
+matte plot
+
+581
+00:21:20,880 --> 00:21:23,360
+lip inline i just to take inline here
+
+582
+00:21:23,360 --> 00:21:25,280
+often i also like to use it in the
+
+583
+00:21:25,280 --> 00:21:27,280
+notebook because then it you can have
+
+584
+00:21:27,280 --> 00:21:29,679
+interactive and then and then
+
+585
+00:21:29,679 --> 00:21:31,440
+and the charts look actually more
+
+586
+00:21:31,440 --> 00:21:34,080
+amazing actually so
+
+587
+00:21:34,080 --> 00:21:35,520
+and uh
+
+588
+00:21:35,520 --> 00:21:37,919
+please check out my video about lecture
+
+589
+00:21:37,919 --> 00:21:40,320
+about how so called matplotlib
+
+590
+00:21:40,320 --> 00:21:42,080
+visualization because it's amazing
+
+591
+00:21:42,080 --> 00:21:44,320
+because i like to use like this because
+
+592
+00:21:44,320 --> 00:21:45,919
+many people use it directly on the data
+
+593
+00:21:45,919 --> 00:21:47,280
+frames but
+
+594
+00:21:47,280 --> 00:21:49,280
+i like to make a
+
+595
+00:21:49,280 --> 00:21:51,919
+subplots here because the reason i do
+
+596
+00:21:51,919 --> 00:21:53,840
+that is because often when you have
+
+597
+00:21:53,840 --> 00:21:55,840
+multiple plots in the same notebook it
+
+598
+00:21:55,840 --> 00:21:57,200
+gets confusing because sometimes it
+
+599
+00:21:57,200 --> 00:21:59,120
+starts drawing on the one previously you
+
+600
+00:21:59,120 --> 00:22:01,280
+made and if you create a new subplots
+
+601
+00:22:01,280 --> 00:22:04,880
+it's never going to happen so it's to
+
+602
+00:22:04,880 --> 00:22:07,280
+to take out a lot of confusing
+
+603
+00:22:07,280 --> 00:22:08,159
+okay
+
+604
+00:22:08,159 --> 00:22:10,640
+so now we take the data set right and we
+
+605
+00:22:10,640 --> 00:22:12,880
+want to map some
+
+606
+00:22:12,880 --> 00:22:14,960
+of it right so what is it we want to map
+
+607
+00:22:14,960 --> 00:22:17,200
+well we want to take the data set and
+
+608
+00:22:17,200 --> 00:22:19,760
+rain tomorrow and if it's raining
+
+609
+00:22:19,760 --> 00:22:20,799
+tomorrow
+
+610
+00:22:20,799 --> 00:22:23,280
+or not let's start with not then we want
+
+611
+00:22:23,280 --> 00:22:24,960
+to plot all that data
+
+612
+00:22:24,960 --> 00:22:26,960
+and actually we want to make a scatter
+
+613
+00:22:26,960 --> 00:22:29,039
+plot
+
+614
+00:22:29,039 --> 00:22:30,400
+and
+
+615
+00:22:30,400 --> 00:22:34,880
+what is it we want to have here
+
+616
+00:22:34,880 --> 00:22:37,520
+that's not it humidity can you also
+
+617
+00:22:37,520 --> 00:22:38,960
+complete no you cannot also complete
+
+618
+00:22:38,960 --> 00:22:43,919
+that so let's just copy it here
+
+619
+00:22:43,919 --> 00:22:47,760
+so you take that column for x and for y
+
+620
+00:22:47,760 --> 00:22:52,559
+you take the pressure
+
+621
+00:22:52,559 --> 00:22:55,520
+and then we need to put a color so when
+
+622
+00:22:55,520 --> 00:22:56,880
+it's rain what color should that be
+
+623
+00:22:56,880 --> 00:22:58,240
+should we be
+
+624
+00:22:58,240 --> 00:22:59,360
+blue
+
+625
+00:22:59,360 --> 00:23:03,039
+blue blue blue it is and uh
+
+626
+00:23:03,039 --> 00:23:05,679
+then i like to put alpha here to be 25
+
+627
+00:23:05,679 --> 00:23:06,960
+because we do scatter plots so we
+
+628
+00:23:06,960 --> 00:23:08,640
+scatter all over right you'll see a
+
+629
+00:23:08,640 --> 00:23:09,919
+moment why
+
+630
+00:23:09,919 --> 00:23:10,960
+and
+
+631
+00:23:10,960 --> 00:23:12,880
+then here's the trick we put access to
+
+632
+00:23:12,880 --> 00:23:16,320
+access we assign the axis of this chart
+
+633
+00:23:16,320 --> 00:23:18,159
+to be here right so i just show you here
+
+634
+00:23:18,159 --> 00:23:20,640
+immediately so these are all the days
+
+635
+00:23:20,640 --> 00:23:22,640
+or all the
+
+636
+00:23:22,640 --> 00:23:26,240
+measurements where it didn't rain okay
+
+637
+00:23:26,240 --> 00:23:27,360
+perfect
+
+638
+00:23:27,360 --> 00:23:31,050
+and uh let's do the same
+
+639
+00:23:31,050 --> 00:23:33,120
+[Music]
+
+640
+00:23:33,120 --> 00:23:35,039
+for when it rains right so we say yes
+
+641
+00:23:35,039 --> 00:23:37,039
+here instead so i just copied the line
+
+642
+00:23:37,039 --> 00:23:38,799
+here and we take the humidity and
+
+643
+00:23:38,799 --> 00:23:41,440
+pressure right humidity and pressure and
+
+644
+00:23:41,440 --> 00:23:43,039
+then
+
+645
+00:23:43,039 --> 00:23:45,279
+red for rain actually this is this
+
+646
+00:23:45,279 --> 00:23:47,840
+should be opposite right
+
+647
+00:23:47,840 --> 00:23:50,000
+rain is more bluish
+
+648
+00:23:50,000 --> 00:23:51,360
+it doesn't matter now
+
+649
+00:23:51,360 --> 00:23:53,360
+now it's done okay so here we see it
+
+650
+00:23:53,360 --> 00:23:56,640
+right so what do we see here so what we
+
+651
+00:23:56,640 --> 00:23:58,960
+see here is actually every time we had a
+
+652
+00:23:58,960 --> 00:24:01,840
+measurement where it didn't rain the day
+
+653
+00:24:01,840 --> 00:24:05,039
+after we plotted it blue and we plotted
+
+654
+00:24:05,039 --> 00:24:06,720
+red if it did rain afterwards right so
+
+655
+00:24:06,720 --> 00:24:09,039
+we actually see there is it's not
+
+656
+00:24:09,039 --> 00:24:11,600
+totally random right you see more red
+
+657
+00:24:11,600 --> 00:24:14,880
+points here that means rain
+
+658
+00:24:14,880 --> 00:24:18,400
+and less red points over here so
+
+659
+00:24:18,400 --> 00:24:20,799
+actually you see an indicator the more
+
+660
+00:24:20,799 --> 00:24:22,000
+humidity
+
+661
+00:24:22,000 --> 00:24:24,159
+the more likely it was to rain the day
+
+662
+00:24:24,159 --> 00:24:26,799
+afterwards and the less humidity the
+
+663
+00:24:26,799 --> 00:24:29,200
+less likely and there's probably also
+
+664
+00:24:29,200 --> 00:24:30,559
+something with the pressure it's
+
+665
+00:24:30,559 --> 00:24:32,640
+difficult to see but maybe
+
+666
+00:24:32,640 --> 00:24:34,799
+maybe it could be something like that
+
+667
+00:24:34,799 --> 00:24:36,240
+right okay
+
+668
+00:24:36,240 --> 00:24:37,200
+so
+
+669
+00:24:37,200 --> 00:24:39,840
+now we will start now we explored the
+
+670
+00:24:39,840 --> 00:24:42,320
+data now we will start with our first
+
+671
+00:24:42,320 --> 00:24:45,360
+classifier and this one is amazing it's
+
+672
+00:24:45,360 --> 00:24:48,159
+called the nearest neighbors
+
+673
+00:24:48,159 --> 00:24:49,679
+classification
+
+674
+00:24:49,679 --> 00:24:51,279
+or classifier
+
+675
+00:24:51,279 --> 00:24:53,919
+okay given an input choose the class of
+
+676
+00:24:53,919 --> 00:24:56,080
+nearest data point
+
+677
+00:24:56,080 --> 00:24:58,960
+so in its basic form let's assume this
+
+678
+00:24:58,960 --> 00:25:01,919
+is our data now only here right so we
+
+679
+00:25:01,919 --> 00:25:04,159
+have some blue points which was raining
+
+680
+00:25:04,159 --> 00:25:05,120
+and
+
+681
+00:25:05,120 --> 00:25:07,039
+blue points was not raining and red
+
+682
+00:25:07,039 --> 00:25:08,640
+points were
+
+683
+00:25:08,640 --> 00:25:10,240
+raining right
+
+684
+00:25:10,240 --> 00:25:11,919
+so in this
+
+685
+00:25:11,919 --> 00:25:14,080
+form here in the nearest neighbor
+
+686
+00:25:14,080 --> 00:25:16,480
+classification if you get one new
+
+687
+00:25:16,480 --> 00:25:17,760
+measurement
+
+688
+00:25:17,760 --> 00:25:20,640
+right here it will predict it based on
+
+689
+00:25:20,640 --> 00:25:22,320
+what is nearest to it in this case it's
+
+690
+00:25:22,320 --> 00:25:24,159
+a red one so it will say it's going to
+
+691
+00:25:24,159 --> 00:25:25,840
+rain tomorrow
+
+692
+00:25:25,840 --> 00:25:28,000
+so you might think when you look at this
+
+693
+00:25:28,000 --> 00:25:29,520
+picture
+
+694
+00:25:29,520 --> 00:25:31,360
+it's difficult to say and there's no
+
+695
+00:25:31,360 --> 00:25:33,360
+right or wrong here you might say well
+
+696
+00:25:33,360 --> 00:25:34,799
+it actually looks more that this is an
+
+697
+00:25:34,799 --> 00:25:36,799
+outlier that the red points are more
+
+698
+00:25:36,799 --> 00:25:39,440
+likely over here so how can you deal
+
+699
+00:25:39,440 --> 00:25:40,480
+with that
+
+700
+00:25:40,480 --> 00:25:42,880
+well there's something called k nearest
+
+701
+00:25:42,880 --> 00:25:45,200
+neighborhood classifier and that's a k
+
+702
+00:25:45,200 --> 00:25:47,840
+right so if in this case we take k for
+
+703
+00:25:47,840 --> 00:25:49,919
+three so instead of only look at one
+
+704
+00:25:49,919 --> 00:25:52,000
+closest one you look at the three
+
+705
+00:25:52,000 --> 00:25:53,600
+closest one and then you take the
+
+706
+00:25:53,600 --> 00:25:56,720
+majority of that so in this case we will
+
+707
+00:25:56,720 --> 00:25:59,120
+actually predict it to be
+
+708
+00:25:59,120 --> 00:26:00,960
+non-raining right the blue color was
+
+709
+00:26:00,960 --> 00:26:03,039
+non-raining so we will predict it to be
+
+710
+00:26:03,039 --> 00:26:06,159
+blue instead of red so you see
+
+711
+00:26:06,159 --> 00:26:08,000
+sometimes the nearest neighborhoods
+
+712
+00:26:08,000 --> 00:26:10,159
+classification is not
+
+713
+00:26:10,159 --> 00:26:12,400
+what you want you want to take it over a
+
+714
+00:26:12,400 --> 00:26:13,440
+few
+
+715
+00:26:13,440 --> 00:26:15,600
+points okay so that's what we're going
+
+716
+00:26:15,600 --> 00:26:17,520
+to do right so the k nearest
+
+717
+00:26:17,520 --> 00:26:19,279
+neighborhood classification given an
+
+718
+00:26:19,279 --> 00:26:21,600
+input choose the most common class out
+
+719
+00:26:21,600 --> 00:26:24,000
+of the k nearest data points right so
+
+720
+00:26:24,000 --> 00:26:26,880
+this is actually what it does this is
+
+721
+00:26:26,880 --> 00:26:28,720
+the concept of
+
+722
+00:26:28,720 --> 00:26:31,440
+near k nearest classification isn't it
+
+723
+00:26:31,440 --> 00:26:34,080
+easy i told you it was easy right so
+
+724
+00:26:34,080 --> 00:26:35,360
+you've been wondering how i'm going to
+
+725
+00:26:35,360 --> 00:26:37,039
+implement this you're not you're going
+
+726
+00:26:37,039 --> 00:26:38,720
+to use a library now you know what it
+
+727
+00:26:38,720 --> 00:26:40,159
+does and i'm going to show you how to do
+
+728
+00:26:40,159 --> 00:26:41,200
+that and then we're going to do a
+
+729
+00:26:41,200 --> 00:26:44,880
+project this is scary no not all right
+
+730
+00:26:44,880 --> 00:26:46,799
+it looks easy to understand you don't
+
+731
+00:26:46,799 --> 00:26:48,960
+need to implement anything here that's
+
+732
+00:26:48,960 --> 00:26:52,080
+the key thing you are just need to you
+
+733
+00:26:52,080 --> 00:26:54,720
+just need to understand how it works so
+
+734
+00:26:54,720 --> 00:26:55,520
+so
+
+735
+00:26:55,520 --> 00:26:57,200
+a couple of things
+
+736
+00:26:57,200 --> 00:26:59,679
+or one of the main things in
+
+737
+00:26:59,679 --> 00:27:01,440
+when you do these things people get so
+
+738
+00:27:01,440 --> 00:27:03,840
+excited right so they just want to
+
+739
+00:27:03,840 --> 00:27:05,840
+make when you have a data set like this
+
+740
+00:27:05,840 --> 00:27:08,400
+one you want 100 accuracy right you want
+
+741
+00:27:08,400 --> 00:27:10,640
+it to be perfect you want to predict
+
+742
+00:27:10,640 --> 00:27:12,559
+everything perfectly right
+
+743
+00:27:12,559 --> 00:27:14,159
+you remember when i told you about you
+
+744
+00:27:14,159 --> 00:27:16,159
+often have a training set and a test set
+
+745
+00:27:16,159 --> 00:27:17,919
+so you train the model on the training
+
+746
+00:27:17,919 --> 00:27:19,440
+set and then you test it on your test
+
+747
+00:27:19,440 --> 00:27:20,399
+set right
+
+748
+00:27:20,399 --> 00:27:22,720
+and you get so obsessed with this
+
+749
+00:27:22,720 --> 00:27:25,520
+process that suddenly you just i'm gonna
+
+750
+00:27:25,520 --> 00:27:28,559
+fit it 100 that's what i want
+
+751
+00:27:28,559 --> 00:27:31,120
+so that is the biggest problem in
+
+752
+00:27:31,120 --> 00:27:33,679
+machine learning and the thing people do
+
+753
+00:27:33,679 --> 00:27:35,279
+immediately right you think the higher
+
+754
+00:27:35,279 --> 00:27:37,039
+score the better the higher score the
+
+755
+00:27:37,039 --> 00:27:39,840
+better but this is not the case
+
+756
+00:27:39,840 --> 00:27:41,840
+a model that fits too closely to
+
+757
+00:27:41,840 --> 00:27:44,320
+particular data set but fails to predict
+
+758
+00:27:44,320 --> 00:27:47,919
+on future values right so you make this
+
+759
+00:27:47,919 --> 00:27:50,240
+amazingly let's let's say here the k
+
+760
+00:27:50,240 --> 00:27:51,840
+nearest neighborhood classification we
+
+761
+00:27:51,840 --> 00:27:55,919
+make it amazingly fit everything but
+
+762
+00:27:55,919 --> 00:27:56,880
+we
+
+763
+00:27:56,880 --> 00:27:58,720
+what it doesn't do is actually predict
+
+764
+00:27:58,720 --> 00:28:00,559
+future values right again here for
+
+765
+00:28:00,559 --> 00:28:02,399
+instance we say we fit everything
+
+766
+00:28:02,399 --> 00:28:04,480
+perfectly but
+
+767
+00:28:04,480 --> 00:28:06,720
+let's say we use this model here but
+
+768
+00:28:06,720 --> 00:28:08,080
+it didn't predict
+
+769
+00:28:08,080 --> 00:28:11,440
+new data it didn't predict it
+
+770
+00:28:11,440 --> 00:28:12,720
+so what can you do
+
+771
+00:28:12,720 --> 00:28:14,880
+there are a few approaches and something
+
+772
+00:28:14,880 --> 00:28:16,799
+called regularization
+
+773
+00:28:16,799 --> 00:28:19,440
+and it's like penalizing hypotheses that
+
+774
+00:28:19,440 --> 00:28:21,120
+are more complex and favor more simple
+
+775
+00:28:21,120 --> 00:28:23,120
+ones that's always good to have when you
+
+776
+00:28:23,120 --> 00:28:25,440
+create models right now we we really
+
+777
+00:28:25,440 --> 00:28:27,360
+don't create a big model or anything but
+
+778
+00:28:27,360 --> 00:28:29,039
+we later in the course when you create
+
+779
+00:28:29,039 --> 00:28:31,120
+models often when they become too
+
+780
+00:28:31,120 --> 00:28:33,039
+complex
+
+781
+00:28:33,039 --> 00:28:34,960
+maybe you can simplify it
+
+782
+00:28:34,960 --> 00:28:37,039
+and maybe you don't score as high but
+
+783
+00:28:37,039 --> 00:28:39,679
+simpler is better
+
+784
+00:28:39,679 --> 00:28:41,760
+and what we're going to use is hold out
+
+785
+00:28:41,760 --> 00:28:43,840
+cross validation split data into
+
+786
+00:28:43,840 --> 00:28:45,679
+training and testing sets so i also have
+
+787
+00:28:45,679 --> 00:28:46,960
+some links here if you want to read more
+
+788
+00:28:46,960 --> 00:28:49,520
+about it but this is the simplest way of
+
+789
+00:28:49,520 --> 00:28:51,279
+doing it and this is what we are going
+
+790
+00:28:51,279 --> 00:28:53,120
+to do mainly in this course is like we
+
+791
+00:28:53,120 --> 00:28:54,880
+have some training data and some testing
+
+792
+00:28:54,880 --> 00:28:56,080
+sets right
+
+793
+00:28:56,080 --> 00:28:56,960
+so you
+
+794
+00:28:56,960 --> 00:28:58,399
+have the data set
+
+795
+00:28:58,399 --> 00:29:00,720
+divided into a big training set and a
+
+796
+00:29:00,720 --> 00:29:03,679
+bit smaller testing set to test validate
+
+797
+00:29:03,679 --> 00:29:06,880
+your things but again here this has the
+
+798
+00:29:06,880 --> 00:29:09,039
+same danger you can still be overfitting
+
+799
+00:29:09,039 --> 00:29:10,880
+because you've over fit specifically to
+
+800
+00:29:10,880 --> 00:29:13,279
+this training test set
+
+801
+00:29:13,279 --> 00:29:15,760
+so there's something also called k-fold
+
+802
+00:29:15,760 --> 00:29:18,399
+cross-validation and it's basically
+
+803
+00:29:18,399 --> 00:29:20,960
+doing the same thing just k times with k
+
+804
+00:29:20,960 --> 00:29:23,840
+different training testing sets
+
+805
+00:29:23,840 --> 00:29:26,320
+which you divide differently right so
+
+806
+00:29:26,320 --> 00:29:28,480
+this way you minimize it
+
+807
+00:29:28,480 --> 00:29:30,399
+okay are you ready and again here we
+
+808
+00:29:30,399 --> 00:29:32,320
+have some programming notes most of the
+
+809
+00:29:32,320 --> 00:29:34,159
+time i'll not go through it in details
+
+810
+00:29:34,159 --> 00:29:35,679
+but because this is the first lesson
+
+811
+00:29:35,679 --> 00:29:37,039
+i'll just say again here we're going to
+
+812
+00:29:37,039 --> 00:29:39,600
+use a numpy if you're not familiar with
+
+813
+00:29:39,600 --> 00:29:42,080
+that you can also see a lecture on that
+
+814
+00:29:42,080 --> 00:29:45,279
+and sk learn or psychic learn
+
+815
+00:29:45,279 --> 00:29:48,000
+is amazing library it's default
+
+816
+00:29:48,000 --> 00:29:49,760
+installed on uh
+
+817
+00:29:49,760 --> 00:29:52,799
+in anaconda jupiter notebook so it is
+
+818
+00:29:52,799 --> 00:29:54,480
+nothing you need to do also numpy and
+
+819
+00:29:54,480 --> 00:29:56,720
+pandas are then
+
+820
+00:29:56,720 --> 00:29:59,279
+then there's dropna which is a easy way
+
+821
+00:29:59,279 --> 00:30:01,760
+to clean data so we already talked about
+
+822
+00:30:01,760 --> 00:30:02,960
+what do you do when you need to clean
+
+823
+00:30:02,960 --> 00:30:04,960
+data well
+
+824
+00:30:04,960 --> 00:30:07,600
+well you need to clean it right so the
+
+825
+00:30:07,600 --> 00:30:10,000
+easiest thing you can do is just if data
+
+826
+00:30:10,000 --> 00:30:11,679
+is missing as often you have
+
+827
+00:30:11,679 --> 00:30:13,200
+measurements and some measurements were
+
+828
+00:30:13,200 --> 00:30:15,520
+lagging right it didn't come in you know
+
+829
+00:30:15,520 --> 00:30:17,760
+how it is you have you remember the long
+
+830
+00:30:17,760 --> 00:30:20,320
+row of data we have i have up here
+
+831
+00:30:20,320 --> 00:30:22,880
+this one here right all this data here
+
+832
+00:30:22,880 --> 00:30:24,240
+is there something
+
+833
+00:30:24,240 --> 00:30:26,799
+actually here you see not a number not a
+
+834
+00:30:26,799 --> 00:30:28,640
+number this means that there are missing
+
+835
+00:30:28,640 --> 00:30:30,640
+values here right
+
+836
+00:30:30,640 --> 00:30:32,720
+so that happens you have enormous data
+
+837
+00:30:32,720 --> 00:30:34,320
+sets and that happens all the time
+
+838
+00:30:34,320 --> 00:30:36,240
+you're missing data so what is the
+
+839
+00:30:36,240 --> 00:30:38,320
+easiest thing you can do well it's just
+
+840
+00:30:38,320 --> 00:30:41,120
+to skip them skip rows
+
+841
+00:30:41,120 --> 00:30:42,240
+which are
+
+842
+00:30:42,240 --> 00:30:44,799
+missing data okay skip all those skip
+
+843
+00:30:44,799 --> 00:30:46,080
+them
+
+844
+00:30:46,080 --> 00:30:48,399
+it's the easiest not the
+
+845
+00:30:48,399 --> 00:30:50,640
+right way to do it always but you know
+
+846
+00:30:50,640 --> 00:30:52,000
+and then we have this list comprehension
+
+847
+00:30:52,000 --> 00:30:54,320
+again right you need to do that and then
+
+848
+00:30:54,320 --> 00:30:57,919
+there's train test split
+
+849
+00:30:57,919 --> 00:30:58,880
+and
+
+850
+00:30:58,880 --> 00:30:59,679
+yeah
+
+851
+00:30:59,679 --> 00:31:01,039
+this is where we
+
+852
+00:31:01,039 --> 00:31:03,360
+divide the data set into train test and
+
+853
+00:31:03,360 --> 00:31:07,039
+split from sk learn and then we have the
+
+854
+00:31:07,039 --> 00:31:09,039
+k neighborhoods classifier the one we're
+
+855
+00:31:09,039 --> 00:31:10,960
+going to use and then to measure the
+
+856
+00:31:10,960 --> 00:31:12,559
+accuracy we're going to use this matrix
+
+857
+00:31:12,559 --> 00:31:14,880
+accuracy score from
+
+858
+00:31:14,880 --> 00:31:16,159
+sklearn
+
+859
+00:31:16,159 --> 00:31:18,720
+good are you ready
+
+860
+00:31:18,720 --> 00:31:23,600
+i am so let's get started
+
+861
+00:31:23,600 --> 00:31:26,080
+so as with anything i think we should
+
+862
+00:31:26,080 --> 00:31:28,159
+import something import
+
+863
+00:31:28,159 --> 00:31:30,559
+numpy and you do that as np
+
+864
+00:31:30,559 --> 00:31:32,320
+and i actually think we should import
+
+865
+00:31:32,320 --> 00:31:35,120
+some more from sk
+
+866
+00:31:35,120 --> 00:31:36,640
+ler
+
+867
+00:31:36,640 --> 00:31:38,240
+is that correct spelt
+
+868
+00:31:38,240 --> 00:31:40,080
+model
+
+869
+00:31:40,080 --> 00:31:41,519
+model selection
+
+870
+00:31:41,519 --> 00:31:44,000
+model selection import
+
+871
+00:31:44,000 --> 00:31:45,679
+train
+
+872
+00:31:45,679 --> 00:31:48,080
+test split right so how how do i get
+
+873
+00:31:48,080 --> 00:31:50,159
+this easy typed in here i use auto
+
+874
+00:31:50,159 --> 00:31:52,000
+completion with tab i get this question
+
+875
+00:31:52,000 --> 00:31:53,440
+all the time how do you do that how do
+
+876
+00:31:53,440 --> 00:31:55,679
+you do that right so i think this is
+
+877
+00:31:55,679 --> 00:31:58,399
+basically what we need we also need the
+
+878
+00:31:58,399 --> 00:32:00,559
+classifier so
+
+879
+00:32:00,559 --> 00:32:03,360
+from
+
+880
+00:32:03,360 --> 00:32:04,640
+sk
+
+881
+00:32:04,640 --> 00:32:06,559
+learn
+
+882
+00:32:06,559 --> 00:32:08,480
+neighbors
+
+883
+00:32:08,480 --> 00:32:10,159
+import
+
+884
+00:32:10,159 --> 00:32:13,600
+housecall k neighbors classifier and
+
+885
+00:32:13,600 --> 00:32:16,320
+actually we need the the metrics sk
+
+886
+00:32:16,320 --> 00:32:20,159
+learn metrics oh metrics
+
+887
+00:32:20,159 --> 00:32:21,919
+import
+
+888
+00:32:21,919 --> 00:32:23,840
+accuracy score
+
+889
+00:32:23,840 --> 00:32:25,440
+right
+
+890
+00:32:25,440 --> 00:32:26,320
+good
+
+891
+00:32:26,320 --> 00:32:28,080
+perfect i think those are the things
+
+892
+00:32:28,080 --> 00:32:29,360
+we're going to need often it's a good
+
+893
+00:32:29,360 --> 00:32:31,679
+idea just import in the beginning uh
+
+894
+00:32:31,679 --> 00:32:32,480
+let's
+
+895
+00:32:32,480 --> 00:32:34,480
+have it here right so
+
+896
+00:32:34,480 --> 00:32:36,399
+what is it we want so often when you
+
+897
+00:32:36,399 --> 00:32:38,080
+work with these things you have like the
+
+898
+00:32:38,080 --> 00:32:42,000
+data set in
+
+899
+00:32:42,000 --> 00:32:44,000
+in x and
+
+900
+00:32:44,000 --> 00:32:47,519
+the labels in y so before that we need
+
+901
+00:32:47,519 --> 00:32:49,039
+also to remember we need to clean the
+
+902
+00:32:49,039 --> 00:32:51,360
+data so let's call it data
+
+903
+00:32:51,360 --> 00:32:52,880
+data set
+
+904
+00:32:52,880 --> 00:32:55,440
+clean let's call it data set clean and
+
+905
+00:32:55,440 --> 00:32:57,200
+then take data
+
+906
+00:32:57,200 --> 00:32:58,640
+set and
+
+907
+00:32:58,640 --> 00:33:01,679
+call this drop now
+
+908
+00:33:01,679 --> 00:33:02,640
+and
+
+909
+00:33:02,640 --> 00:33:03,840
+i'll just
+
+910
+00:33:03,840 --> 00:33:06,080
+put the length here of data
+
+911
+00:33:06,080 --> 00:33:07,120
+set
+
+912
+00:33:07,120 --> 00:33:08,000
+and
+
+913
+00:33:08,000 --> 00:33:11,120
+length of data
+
+914
+00:33:11,120 --> 00:33:12,159
+set
+
+915
+00:33:12,159 --> 00:33:14,159
+clean why do i do that i want to show
+
+916
+00:33:14,159 --> 00:33:16,240
+you that actually you have like in the
+
+917
+00:33:16,240 --> 00:33:18,440
+data set the original data set you have
+
+918
+00:33:18,440 --> 00:33:21,760
+337 rows and you actually skipped
+
+919
+00:33:21,760 --> 00:33:23,360
+28
+
+920
+00:33:23,360 --> 00:33:24,720
+rows right
+
+921
+00:33:24,720 --> 00:33:27,120
+you dropped those so you dropped all the
+
+922
+00:33:27,120 --> 00:33:28,640
+rows with that data so now you have a
+
+923
+00:33:28,640 --> 00:33:31,279
+less rows of data but for our purposes
+
+924
+00:33:31,279 --> 00:33:33,840
+it's like 28 rows it's it's okay i think
+
+925
+00:33:33,840 --> 00:33:35,679
+so don't worry about it
+
+926
+00:33:35,679 --> 00:33:38,159
+and now we need to make this x data set
+
+927
+00:33:38,159 --> 00:33:40,000
+and this y data set so you're ready for
+
+928
+00:33:40,000 --> 00:33:43,600
+that so x what is that oh i keep typing
+
+929
+00:33:43,600 --> 00:33:46,480
+wrong here this keyboard here so it's
+
+930
+00:33:46,480 --> 00:33:51,600
+the date data set clean now right and oh
+
+931
+00:33:51,600 --> 00:33:54,080
+we need square brackets and you need to
+
+932
+00:33:54,080 --> 00:33:58,640
+have this humidity
+
+933
+00:33:58,640 --> 00:34:00,880
+amanoid doesn't really auto complete it
+
+934
+00:34:00,880 --> 00:34:07,120
+so let's copy here
+
+935
+00:34:07,120 --> 00:34:11,040
+humidity
+
+936
+00:34:11,040 --> 00:34:13,440
+that's the x data set
+
+937
+00:34:13,440 --> 00:34:18,480
+and then the y data set
+
+938
+00:34:18,480 --> 00:34:21,679
+clean it is
+
+939
+00:34:21,679 --> 00:34:24,079
+rain tomorrow right
+
+940
+00:34:24,079 --> 00:34:26,079
+so this is it right so now we actually
+
+941
+00:34:26,079 --> 00:34:28,000
+have these things but there's a catch
+
+942
+00:34:28,000 --> 00:34:30,320
+right so let's look at why here
+
+943
+00:34:30,320 --> 00:34:32,879
+so why here is yes yes no no no no and
+
+944
+00:34:32,879 --> 00:34:35,040
+so on here and we actually don't want
+
+945
+00:34:35,040 --> 00:34:36,320
+that and this is actually where we're
+
+946
+00:34:36,320 --> 00:34:37,919
+going to use a
+
+947
+00:34:37,919 --> 00:34:39,359
+transformation of it and we're going to
+
+948
+00:34:39,359 --> 00:34:43,040
+use also called
+
+949
+00:34:43,040 --> 00:34:44,720
+list comprehension and if you're not
+
+950
+00:34:44,720 --> 00:34:46,720
+familiar with that i advise you to look
+
+951
+00:34:46,720 --> 00:34:48,320
+into that and it's amazing and you're
+
+952
+00:34:48,320 --> 00:34:50,399
+going to see why now
+
+953
+00:34:50,399 --> 00:34:52,960
+so we're going to make an array
+
+954
+00:34:52,960 --> 00:34:53,919
+here
+
+955
+00:34:53,919 --> 00:34:55,760
+and inside the array we're going to make
+
+956
+00:34:55,760 --> 00:34:57,680
+this list comprehension so what are we
+
+957
+00:34:57,680 --> 00:35:00,000
+going to do we're going to set
+
+958
+00:35:00,000 --> 00:35:03,280
+0 if value
+
+959
+00:35:03,280 --> 00:35:04,400
+equals
+
+960
+00:35:04,400 --> 00:35:06,560
+no
+
+961
+00:35:06,560 --> 00:35:09,040
+else we're going to put it to 1
+
+962
+00:35:09,040 --> 00:35:12,800
+4 value in y right
+
+963
+00:35:12,800 --> 00:35:14,880
+so what do we have now did you see that
+
+964
+00:35:14,880 --> 00:35:17,920
+went fast right so we made a numpy array
+
+965
+00:35:17,920 --> 00:35:19,599
+now instead
+
+966
+00:35:19,599 --> 00:35:22,000
+and then we took for each of
+
+967
+00:35:22,000 --> 00:35:23,359
+for each you have to read it from here
+
+968
+00:35:23,359 --> 00:35:26,400
+right four value in y that's for each of
+
+969
+00:35:26,400 --> 00:35:29,680
+this one here we actually say if
+
+970
+00:35:29,680 --> 00:35:31,920
+if the value this value we assign we
+
+971
+00:35:31,920 --> 00:35:34,400
+take one item off the yes and knows that
+
+972
+00:35:34,400 --> 00:35:36,880
+was there if it's equal no put it to
+
+973
+00:35:36,880 --> 00:35:40,160
+zero l to put it to one
+
+974
+00:35:40,160 --> 00:35:41,839
+and there you have it you have a numpy
+
+975
+00:35:41,839 --> 00:35:44,160
+array here one one one zero zero and so
+
+976
+00:35:44,160 --> 00:35:47,280
+on fourth down there
+
+977
+00:35:47,280 --> 00:35:49,839
+perfect are you ready i think so
+
+978
+00:35:49,839 --> 00:35:51,680
+so let's continue our journey now we
+
+979
+00:35:51,680 --> 00:35:53,839
+need to make the training set so
+
+980
+00:35:53,839 --> 00:35:56,480
+for that we need to use this one here so
+
+981
+00:35:56,480 --> 00:35:59,200
+let's do that train
+
+982
+00:35:59,200 --> 00:36:01,599
+x test
+
+983
+00:36:01,599 --> 00:36:02,480
+y
+
+984
+00:36:02,480 --> 00:36:03,839
+train
+
+985
+00:36:03,839 --> 00:36:06,880
+y test equals
+
+986
+00:36:06,880 --> 00:36:10,560
+train test split and you take x y and
+
+987
+00:36:10,560 --> 00:36:12,400
+what i like to do is actually put random
+
+988
+00:36:12,400 --> 00:36:14,960
+state here to something and why do i do
+
+989
+00:36:14,960 --> 00:36:17,520
+that well you can actually read about it
+
+990
+00:36:17,520 --> 00:36:20,880
+in here
+
+991
+00:36:20,880 --> 00:36:22,720
+random state you can see your random
+
+992
+00:36:22,720 --> 00:36:26,160
+state here and what does it do
+
+993
+00:36:26,160 --> 00:36:27,760
+i show you this because i want you make
+
+994
+00:36:27,760 --> 00:36:30,079
+you familiar with this right random
+
+995
+00:36:30,079 --> 00:36:32,640
+state int random state instance or none
+
+996
+00:36:32,640 --> 00:36:34,800
+default non right controls the shuffling
+
+997
+00:36:34,800 --> 00:36:36,640
+applied on the data before applying the
+
+998
+00:36:36,640 --> 00:36:38,000
+split
+
+999
+00:36:38,000 --> 00:36:40,200
+pass and end for repro
+
+1000
+00:36:40,200 --> 00:36:42,480
+reproducibility output across multiple
+
+1001
+00:36:42,480 --> 00:36:44,880
+function calls right because if you
+
+1002
+00:36:44,880 --> 00:36:46,640
+run it once
+
+1003
+00:36:46,640 --> 00:36:49,200
+you get a some data set and
+
+1004
+00:36:49,200 --> 00:36:52,560
+some training and test splitting and you
+
+1005
+00:36:52,560 --> 00:36:54,400
+made some results and then later you you
+
+1006
+00:36:54,400 --> 00:36:56,320
+want to reproduce it didn't work well
+
+1007
+00:36:56,320 --> 00:36:58,240
+and you want to reproduce it
+
+1008
+00:36:58,240 --> 00:36:59,839
+especially when you're debugging it can
+
+1009
+00:36:59,839 --> 00:37:01,680
+be dependent on the random state so in
+
+1010
+00:37:01,680 --> 00:37:03,200
+this case when you have a specific
+
+1011
+00:37:03,200 --> 00:37:05,760
+random state it will be a specific split
+
+1012
+00:37:05,760 --> 00:37:07,680
+between the train and test so it will be
+
+1013
+00:37:07,680 --> 00:37:09,839
+the same each time i run it
+
+1014
+00:37:09,839 --> 00:37:12,560
+so if i run it again here
+
+1015
+00:37:12,560 --> 00:37:14,160
+let's see here let's
+
+1016
+00:37:14,160 --> 00:37:16,079
+can i do this actually i don't know
+
+1017
+00:37:16,079 --> 00:37:19,280
+no i cannot because these are
+
+1018
+00:37:19,280 --> 00:37:21,359
+numpy arrays right
+
+1019
+00:37:21,359 --> 00:37:24,960
+no not numpy arrays were called i lock
+
+1020
+00:37:24,960 --> 00:37:27,760
+so here we see it here so if i run
+
+1021
+00:37:27,760 --> 00:37:30,000
+the first one here is these measurements
+
+1022
+00:37:30,000 --> 00:37:31,280
+and if i run it again it's the same
+
+1023
+00:37:31,280 --> 00:37:33,599
+right and run again it's the same if i
+
+1024
+00:37:33,599 --> 00:37:37,599
+didn't have this one here
+
+1025
+00:37:37,599 --> 00:37:40,800
+you see it changes from run to run right
+
+1026
+00:37:40,800 --> 00:37:44,320
+but if i have the random state here
+
+1027
+00:37:44,320 --> 00:37:46,560
+random
+
+1028
+00:37:46,560 --> 00:37:47,680
+state
+
+1029
+00:37:47,680 --> 00:37:50,640
+42 it's always the same okay
+
+1030
+00:37:50,640 --> 00:37:52,320
+so it's to reproduce the same thing
+
+1031
+00:37:52,320 --> 00:37:54,960
+again so i like to do that
+
+1032
+00:37:54,960 --> 00:37:56,960
+perfect awesome
+
+1033
+00:37:56,960 --> 00:37:59,119
+good now for
+
+1034
+00:37:59,119 --> 00:38:01,599
+we have the test
+
+1035
+00:38:01,599 --> 00:38:04,160
+training set and the test set and now we
+
+1036
+00:38:04,160 --> 00:38:05,839
+are ready to make our model and it's
+
+1037
+00:38:05,839 --> 00:38:08,160
+going to be amazing
+
+1038
+00:38:08,160 --> 00:38:08,960
+okay
+
+1039
+00:38:08,960 --> 00:38:12,000
+so let's call it an a it's called
+
+1040
+00:38:12,000 --> 00:38:13,119
+kn
+
+1041
+00:38:13,119 --> 00:38:16,079
+classifier and it's just used by default
+
+1042
+00:38:16,079 --> 00:38:17,440
+you can actually read
+
+1043
+00:38:17,440 --> 00:38:19,040
+what options you can set there you can
+
+1044
+00:38:19,040 --> 00:38:21,680
+put neighbors right and this is maybe
+
+1045
+00:38:21,680 --> 00:38:23,680
+something to
+
+1046
+00:38:23,680 --> 00:38:25,440
+so remember we had this three up there
+
+1047
+00:38:25,440 --> 00:38:27,599
+so now we're gonna use neighbors as five
+
+1048
+00:38:27,599 --> 00:38:29,760
+you can try something different
+
+1049
+00:38:29,760 --> 00:38:30,880
+so
+
+1050
+00:38:30,880 --> 00:38:32,560
+you can put that
+
+1051
+00:38:32,560 --> 00:38:34,400
+as an argument here i'm not going to do
+
+1052
+00:38:34,400 --> 00:38:35,680
+that here
+
+1053
+00:38:35,680 --> 00:38:37,359
+because i'm just going to use the
+
+1054
+00:38:37,359 --> 00:38:39,119
+default one here
+
+1055
+00:38:39,119 --> 00:38:41,599
+and uh
+
+1056
+00:38:41,599 --> 00:38:44,640
+you know not supposed golden a it was a
+
+1057
+00:38:44,640 --> 00:38:46,960
+political new and then we fit it so all
+
+1058
+00:38:46,960 --> 00:38:48,800
+the models most of the time as you
+
+1059
+00:38:48,800 --> 00:38:50,480
+create the model in this case we just
+
+1060
+00:38:50,480 --> 00:38:52,640
+create this pre-made model here and then
+
+1061
+00:38:52,640 --> 00:38:54,320
+you fit it and you fit it on the
+
+1062
+00:38:54,320 --> 00:38:56,880
+training data right
+
+1063
+00:38:56,880 --> 00:39:00,880
+x train y train right so you feed the
+
+1064
+00:39:00,880 --> 00:39:03,359
+algorithm with the training data
+
+1065
+00:39:03,359 --> 00:39:05,200
+and after you do that actually you want
+
+1066
+00:39:05,200 --> 00:39:07,040
+to make some predictions right you need
+
+1067
+00:39:07,040 --> 00:39:09,599
+to measure the model how well did it
+
+1068
+00:39:09,599 --> 00:39:12,240
+perform right so you do an a and then
+
+1069
+00:39:12,240 --> 00:39:15,200
+you predict here
+
+1070
+00:39:15,200 --> 00:39:16,480
+and when you predict
+
+1071
+00:39:16,480 --> 00:39:20,720
+you take the test data right so x
+
+1072
+00:39:20,720 --> 00:39:23,119
+test so what this does is actually it
+
+1073
+00:39:23,119 --> 00:39:26,160
+makes the mapping from x test to y print
+
+1074
+00:39:26,160 --> 00:39:28,160
+and we have the real results here in
+
+1075
+00:39:28,160 --> 00:39:29,839
+white test right
+
+1076
+00:39:29,839 --> 00:39:31,119
+okay
+
+1077
+00:39:31,119 --> 00:39:33,520
+so what we can do here is actually
+
+1078
+00:39:33,520 --> 00:39:37,280
+accuracy score and i forget the
+
+1079
+00:39:37,280 --> 00:39:39,119
+order so it's a true with a predicted
+
+1080
+00:39:39,119 --> 00:39:43,200
+right so it's
+
+1081
+00:39:43,200 --> 00:39:45,680
+why
+
+1082
+00:39:45,680 --> 00:39:46,880
+test
+
+1083
+00:39:46,880 --> 00:39:47,760
+test
+
+1084
+00:39:47,760 --> 00:39:49,280
+with sorry
+
+1085
+00:39:49,280 --> 00:39:50,880
+why pred
+
+1086
+00:39:50,880 --> 00:39:53,040
+good so actually see here this is this
+
+1087
+00:39:53,040 --> 00:39:55,280
+is actually i'm actually surprised
+
+1088
+00:39:55,280 --> 00:39:57,280
+but we'll just check one thing more here
+
+1089
+00:39:57,280 --> 00:39:59,359
+right so the prediction the accuracy of
+
+1090
+00:39:59,359 --> 00:40:03,119
+the prediction is 80 almost 81 percent
+
+1091
+00:40:03,119 --> 00:40:05,520
+uh that's pretty good actually and
+
+1092
+00:40:05,520 --> 00:40:07,599
+there's often a catch here because
+
+1093
+00:40:07,599 --> 00:40:11,119
+sometimes some data is like well in
+
+1094
+00:40:11,119 --> 00:40:14,720
+maybe 80 81 of the time it's actually
+
+1095
+00:40:14,720 --> 00:40:15,760
+sunny
+
+1096
+00:40:15,760 --> 00:40:18,720
+no rain so actually it predicts always
+
+1097
+00:40:18,720 --> 00:40:20,240
+no rain
+
+1098
+00:40:20,240 --> 00:40:21,839
+i mean we only have two categories right
+
+1099
+00:40:21,839 --> 00:40:23,280
+this is what a bit tricky about these
+
+1100
+00:40:23,280 --> 00:40:25,200
+easy models we only have two categories
+
+1101
+00:40:25,200 --> 00:40:27,520
+i know only in ninety percent of the
+
+1102
+00:40:27,520 --> 00:40:29,359
+time it's raining and all the other
+
+1103
+00:40:29,359 --> 00:40:31,440
+times it's not raining right
+
+1104
+00:40:31,440 --> 00:40:33,760
+so you need to be aware of these things
+
+1105
+00:40:33,760 --> 00:40:35,640
+so when you're just looking whoa it's
+
+1106
+00:40:35,640 --> 00:40:38,880
+981 is pretty good so let's just
+
+1107
+00:40:38,880 --> 00:40:41,359
+calculate uh
+
+1108
+00:40:41,359 --> 00:40:42,720
+how often
+
+1109
+00:40:42,720 --> 00:40:45,599
+how often actually it is raining right
+
+1110
+00:40:45,599 --> 00:40:48,160
+so how can you do that so let's say we
+
+1111
+00:40:48,160 --> 00:40:50,560
+have the real results in
+
+1112
+00:40:50,560 --> 00:40:53,680
+uh and why did we have them in y
+
+1113
+00:40:53,680 --> 00:40:55,680
+yes we have all the results in y right
+
+1114
+00:40:55,680 --> 00:40:58,079
+so just just use an array right so what
+
+1115
+00:40:58,079 --> 00:41:01,200
+you can do is you can sum this array
+
+1116
+00:41:01,200 --> 00:41:02,319
+here
+
+1117
+00:41:02,319 --> 00:41:04,000
+here so you see actually that's how many
+
+1118
+00:41:04,000 --> 00:41:05,599
+time it was
+
+1119
+00:41:05,599 --> 00:41:08,240
+raining right one was raining yes and
+
+1120
+00:41:08,240 --> 00:41:10,720
+then you can divide that by the length
+
+1121
+00:41:10,720 --> 00:41:12,000
+of y
+
+1122
+00:41:12,000 --> 00:41:14,480
+so here you see actually 25 you can also
+
+1123
+00:41:14,480 --> 00:41:16,880
+say sum equals to zero if you want the
+
+1124
+00:41:16,880 --> 00:41:19,119
+opposite here so it's 74
+
+1125
+00:41:19,119 --> 00:41:21,359
+times it's raining so that means it's
+
+1126
+00:41:21,359 --> 00:41:22,720
+not predicting
+
+1127
+00:41:22,720 --> 00:41:26,000
+just no rain all the time because then
+
+1128
+00:41:26,000 --> 00:41:29,359
+the accuracy would be 40 uh 74 here as
+
+1129
+00:41:29,359 --> 00:41:32,000
+you see right you get that so this is
+
+1130
+00:41:32,000 --> 00:41:33,839
+when it's not raining if the model just
+
+1131
+00:41:33,839 --> 00:41:37,280
+said no rain all the time for all data
+
+1132
+00:41:37,280 --> 00:41:38,800
+then it would have this
+
+1133
+00:41:38,800 --> 00:41:39,680
+uh
+
+1134
+00:41:39,680 --> 00:41:42,079
+then it would be 74 percent accuracy but
+
+1135
+00:41:42,079 --> 00:41:43,920
+it has actually so it does prepare and
+
+1136
+00:41:43,920 --> 00:41:45,920
+predict something
+
+1137
+00:41:45,920 --> 00:41:47,359
+and what i also like to do is sometimes
+
+1138
+00:41:47,359 --> 00:41:48,960
+to visualize this this is actually quite
+
+1139
+00:41:48,960 --> 00:41:51,040
+funny so i'll show this i mean this is
+
+1140
+00:41:51,040 --> 00:41:52,079
+actually
+
+1141
+00:41:52,079 --> 00:41:53,680
+what you need to know know in order to
+
+1142
+00:41:53,680 --> 00:41:56,560
+do the access the project so if you're
+
+1143
+00:41:56,560 --> 00:41:58,160
+all excited and want to get started go
+
+1144
+00:41:58,160 --> 00:42:00,319
+to the project if you want yeah there's
+
+1145
+00:42:00,319 --> 00:42:02,640
+a link in the chapters down below there
+
+1146
+00:42:02,640 --> 00:42:05,200
+but if you want let's check let's
+
+1147
+00:42:05,200 --> 00:42:07,599
+visualize our chart here it's actually
+
+1148
+00:42:07,599 --> 00:42:10,079
+quite funny so how do you do that right
+
+1149
+00:42:10,079 --> 00:42:13,200
+so let's call it the xmap here and xmap
+
+1150
+00:42:13,200 --> 00:42:16,560
+what does it do well let's take random
+
+1151
+00:42:16,560 --> 00:42:18,720
+random
+
+1152
+00:42:18,720 --> 00:42:21,200
+1002 so what does that do it does an
+
+1153
+00:42:21,200 --> 00:42:23,520
+enormous map here
+
+1154
+00:42:23,520 --> 00:42:25,520
+so x
+
+1155
+00:42:25,520 --> 00:42:26,480
+o
+
+1156
+00:42:26,480 --> 00:42:28,160
+x map
+
+1157
+00:42:28,160 --> 00:42:29,680
+and you see here it's enormous map here
+
+1158
+00:42:29,680 --> 00:42:32,160
+of two coordinates like this right so
+
+1159
+00:42:32,160 --> 00:42:33,680
+what i want to do is actually i want to
+
+1160
+00:42:33,680 --> 00:42:38,160
+shift this map to be inside the
+
+1161
+00:42:38,160 --> 00:42:40,560
+range of our predictions so how do i do
+
+1162
+00:42:40,560 --> 00:42:43,760
+that i multiply this one and now i don't
+
+1163
+00:42:43,760 --> 00:42:47,119
+remember the values 150
+
+1164
+00:42:47,119 --> 00:42:51,240
+and actually i add
+
+1165
+00:42:51,240 --> 00:42:54,480
+0.990 right so now actually these values
+
+1166
+00:42:54,480 --> 00:42:56,839
+here i all of them
+
+1167
+00:42:56,839 --> 00:42:59,920
+are should be
+
+1168
+00:42:59,920 --> 00:43:02,560
+in the range of
+
+1169
+00:43:02,560 --> 00:43:03,839
+actually i took the rent n here it
+
+1170
+00:43:03,839 --> 00:43:06,480
+should be rand it's not normalized right
+
+1171
+00:43:06,480 --> 00:43:08,319
+so here we have it now we have all the
+
+1172
+00:43:08,319 --> 00:43:10,480
+values that are in the range so this is
+
+1173
+00:43:10,480 --> 00:43:12,079
+in the range of humidity and this is
+
+1174
+00:43:12,079 --> 00:43:14,560
+range of the pressure
+
+1175
+00:43:14,560 --> 00:43:17,520
+so let's actually try to
+
+1176
+00:43:17,520 --> 00:43:19,440
+map this
+
+1177
+00:43:19,440 --> 00:43:21,200
+so fig
+
+1178
+00:43:21,200 --> 00:43:23,599
+axis actually
+
+1179
+00:43:23,599 --> 00:43:27,680
+plt sub plots and then we do
+
+1180
+00:43:27,680 --> 00:43:29,680
+ax
+
+1181
+00:43:29,680 --> 00:43:32,240
+scatter and we take
+
+1182
+00:43:32,240 --> 00:43:33,280
+x
+
+1183
+00:43:33,280 --> 00:43:34,720
+equals to x
+
+1184
+00:43:34,720 --> 00:43:37,040
+map and actually we take all the first
+
+1185
+00:43:37,040 --> 00:43:40,960
+coordinates here and then y to be x
+
+1186
+00:43:40,960 --> 00:43:42,319
+map
+
+1187
+00:43:42,319 --> 00:43:45,119
+all the second coordinates oh
+
+1188
+00:43:45,119 --> 00:43:48,079
+and oops
+
+1189
+00:43:48,079 --> 00:43:51,040
+it should be square brackets
+
+1190
+00:43:51,040 --> 00:43:52,800
+colon one
+
+1191
+00:43:52,800 --> 00:43:56,960
+and
+
+1192
+00:43:56,960 --> 00:43:59,280
+yeah let's start by that right so here
+
+1193
+00:43:59,280 --> 00:44:01,520
+we actually see all the mappings and now
+
+1194
+00:44:01,520 --> 00:44:04,720
+you'll see why i always do alpha
+
+1195
+00:44:04,720 --> 00:44:06,880
+because it makes it a bit more like this
+
+1196
+00:44:06,880 --> 00:44:08,560
+so this is this is a map right so this
+
+1197
+00:44:08,560 --> 00:44:10,480
+is a map so let's see how it predicted
+
+1198
+00:44:10,480 --> 00:44:11,520
+here right
+
+1199
+00:44:11,520 --> 00:44:15,119
+so actually we can do that by by by like
+
+1200
+00:44:15,119 --> 00:44:17,920
+i am ymap and we do
+
+1201
+00:44:17,920 --> 00:44:20,000
+our model called nay
+
+1202
+00:44:20,000 --> 00:44:21,359
+predict
+
+1203
+00:44:21,359 --> 00:44:24,640
+and then we predict our x map right
+
+1204
+00:44:24,640 --> 00:44:28,160
+and then we actually add a color here
+
+1205
+00:44:28,160 --> 00:44:29,119
+color
+
+1206
+00:44:29,119 --> 00:44:30,560
+to be
+
+1207
+00:44:30,560 --> 00:44:31,760
+y map
+
+1208
+00:44:31,760 --> 00:44:33,040
+here we go
+
+1209
+00:44:33,040 --> 00:44:34,880
+so actually now actually see how the
+
+1210
+00:44:34,880 --> 00:44:36,640
+model predicts right so
+
+1211
+00:44:36,640 --> 00:44:39,359
+when the value is no rain it's predicted
+
+1212
+00:44:39,359 --> 00:44:40,800
+over here so this is how the model is
+
+1213
+00:44:40,800 --> 00:44:42,880
+and it's rain over here right so if we
+
+1214
+00:44:42,880 --> 00:44:44,800
+look at this actually comparing to the
+
+1215
+00:44:44,800 --> 00:44:46,400
+original data here
+
+1216
+00:44:46,400 --> 00:44:48,160
+so this is actually this is actually
+
+1217
+00:44:48,160 --> 00:44:51,359
+quite okay and this is based on the k
+
+1218
+00:44:51,359 --> 00:44:53,680
+k which is five nearest
+
+1219
+00:44:53,680 --> 00:44:55,760
+points here
+
+1220
+00:44:55,760 --> 00:44:57,440
+and you see so it's not
+
+1221
+00:44:57,440 --> 00:44:59,040
+predicting the same thing all the time
+
+1222
+00:44:59,040 --> 00:45:01,599
+and this actually does a pretty well job
+
+1223
+00:45:01,599 --> 00:45:03,440
+i would say that my weather prediction
+
+1224
+00:45:03,440 --> 00:45:06,079
+in my home time is less than eighty
+
+1225
+00:45:06,079 --> 00:45:09,119
+percent accurate for the rain no rain
+
+1226
+00:45:09,119 --> 00:45:10,480
+actually i didn't do research on that
+
+1227
+00:45:10,480 --> 00:45:12,960
+but i think so
+
+1228
+00:45:12,960 --> 00:45:14,960
+okay good
+
+1229
+00:45:14,960 --> 00:45:16,240
+so
+
+1230
+00:45:16,240 --> 00:45:17,599
+the last thing you can actually do is
+
+1231
+00:45:17,599 --> 00:45:18,400
+actually
+
+1232
+00:45:18,400 --> 00:45:21,119
+so what value for k should you choose
+
+1233
+00:45:21,119 --> 00:45:23,119
+and i'm not going to tell you exactly
+
+1234
+00:45:23,119 --> 00:45:24,880
+that in this one here we're going to
+
+1235
+00:45:24,880 --> 00:45:26,480
+dive into that later
+
+1236
+00:45:26,480 --> 00:45:28,000
+but
+
+1237
+00:45:28,000 --> 00:45:28,960
+uh
+
+1238
+00:45:28,960 --> 00:45:32,160
+let's look instead of
+
+1239
+00:45:32,160 --> 00:45:34,240
+let's try different ones right so let's
+
+1240
+00:45:34,240 --> 00:45:37,040
+do that as a last exercise here
+
+1241
+00:45:37,040 --> 00:45:39,599
+so 4k in
+
+1242
+00:45:39,599 --> 00:45:41,680
+range should we take
+
+1243
+00:45:41,680 --> 00:45:44,880
+one to 100 i know that's a lot well
+
+1244
+00:45:44,880 --> 00:45:46,400
+let's just do that
+
+1245
+00:45:46,400 --> 00:45:47,760
+and
+
+1246
+00:45:47,760 --> 00:45:49,200
+actually we need to do all the same
+
+1247
+00:45:49,200 --> 00:45:56,480
+things here
+
+1248
+00:45:56,480 --> 00:46:00,079
+so we just copy copy this in here and
+
+1249
+00:46:00,079 --> 00:46:01,359
+actually
+
+1250
+00:46:01,359 --> 00:46:02,960
+take score here
+
+1251
+00:46:02,960 --> 00:46:07,119
+and then we need to remember to add the
+
+1252
+00:46:07,119 --> 00:46:09,680
+n neighbors to be k here
+
+1253
+00:46:09,680 --> 00:46:12,640
+and then we take this scores
+
+1254
+00:46:12,640 --> 00:46:16,160
+append score right
+
+1255
+00:46:16,160 --> 00:46:18,480
+and uh
+
+1256
+00:46:18,480 --> 00:46:20,480
+let's run that and you see it takes a
+
+1257
+00:46:20,480 --> 00:46:22,160
+bit longer when it's a star here it's
+
+1258
+00:46:22,160 --> 00:46:24,319
+not oh it's pretty fast in here
+
+1259
+00:46:24,319 --> 00:46:25,599
+and now it ran
+
+1260
+00:46:25,599 --> 00:46:27,359
+100 difference and let's see how well it
+
+1261
+00:46:27,359 --> 00:46:29,839
+does right so fig axis
+
+1262
+00:46:29,839 --> 00:46:31,200
+plt
+
+1263
+00:46:31,200 --> 00:46:33,359
+sub plot
+
+1264
+00:46:33,359 --> 00:46:36,720
+plots here and then we take axis
+
+1265
+00:46:36,720 --> 00:46:40,720
+and we plot the scores right so what is
+
+1266
+00:46:40,720 --> 00:46:42,640
+that i want to show you here is like so
+
+1267
+00:46:42,640 --> 00:46:46,480
+if k was 1 it would be around 75 percent
+
+1268
+00:46:46,480 --> 00:46:48,400
+and it's actually close to probably
+
+1269
+00:46:48,400 --> 00:46:49,760
+predicting now it's probably not
+
+1270
+00:46:49,760 --> 00:46:51,839
+predicting exactly the same
+
+1271
+00:46:51,839 --> 00:46:53,839
+uh and then here it goes up and up you
+
+1272
+00:46:53,839 --> 00:46:55,839
+want it as high as possible we see
+
+1273
+00:46:55,839 --> 00:46:58,319
+something strange here right so going
+
+1274
+00:46:58,319 --> 00:46:59,440
+from
+
+1275
+00:46:59,440 --> 00:47:01,920
+what is this 4 5
+
+1276
+00:47:01,920 --> 00:47:04,079
+k at 4 5 here
+
+1277
+00:47:04,079 --> 00:47:06,480
+until 20 or 100 doesn't really make any
+
+1278
+00:47:06,480 --> 00:47:08,319
+difference right so you see you get most
+
+1279
+00:47:08,319 --> 00:47:10,800
+of it here right so again simplicity
+
+1280
+00:47:10,800 --> 00:47:13,680
+counts you don't gain having
+
+1281
+00:47:13,680 --> 00:47:16,960
+a classifier with the 100 nearest points
+
+1282
+00:47:16,960 --> 00:47:18,240
+it's around
+
+1283
+00:47:18,240 --> 00:47:19,920
+yeah what do you think this is one two
+
+1284
+00:47:19,920 --> 00:47:22,400
+three four five-ish i think this is for
+
+1285
+00:47:22,400 --> 00:47:24,559
+five-ish right this is five down here
+
+1286
+00:47:24,559 --> 00:47:25,440
+right
+
+1287
+00:47:25,440 --> 00:47:27,520
+because i think we were just below 80.
+
+1288
+00:47:27,520 --> 00:47:29,200
+so actually
+
+1289
+00:47:29,200 --> 00:47:31,040
+if you took on the specific data it
+
+1290
+00:47:31,040 --> 00:47:32,400
+would be
+
+1291
+00:47:32,400 --> 00:47:35,280
+four would be better and six would be
+
+1292
+00:47:35,280 --> 00:47:38,480
+better and again don't overfit
+
+1293
+00:47:38,480 --> 00:47:41,280
+again this is specific on this testing
+
+1294
+00:47:41,280 --> 00:47:42,800
+data
+
+1295
+00:47:42,800 --> 00:47:43,920
+good
+
+1296
+00:47:43,920 --> 00:47:46,160
+this was amazing so the next thing is
+
+1297
+00:47:46,160 --> 00:47:47,839
+going to happen is we're going to make a
+
+1298
+00:47:47,839 --> 00:47:49,040
+project
+
+1299
+00:47:49,040 --> 00:47:51,520
+are you ready so let's get to the
+
+1300
+00:47:51,520 --> 00:47:57,359
+project see you in a moment
+
+1301
+00:47:57,359 --> 00:47:59,280
+so are you ready for the project right
+
+1302
+00:47:59,280 --> 00:48:01,280
+so we just did a lesson now we need to
+
+1303
+00:48:01,280 --> 00:48:04,400
+apply this knowledge on our own so i'm
+
+1304
+00:48:04,400 --> 00:48:06,480
+going to introduce a project for you
+
+1305
+00:48:06,480 --> 00:48:08,880
+and when that's done you should try it
+
+1306
+00:48:08,880 --> 00:48:10,800
+yourself and then afterwards in this
+
+1307
+00:48:10,800 --> 00:48:14,000
+video there will be a explanation or a
+
+1308
+00:48:14,000 --> 00:48:16,319
+possible solution how we you and i would
+
+1309
+00:48:16,319 --> 00:48:18,960
+do it together right so are you ready so
+
+1310
+00:48:18,960 --> 00:48:20,880
+how do you find the project files well
+
+1311
+00:48:20,880 --> 00:48:22,559
+it's next to the lesson right you find
+
+1312
+00:48:22,559 --> 00:48:23,520
+the
+
+1313
+00:48:23,520 --> 00:48:25,440
+lesson the project
+
+1314
+00:48:25,440 --> 00:48:28,160
+and uh here we go so
+
+1315
+00:48:28,160 --> 00:48:32,559
+each project is made in steps so you go
+
+1316
+00:48:32,559 --> 00:48:34,400
+through all the steps that also makes it
+
+1317
+00:48:34,400 --> 00:48:35,839
+easy if you have questions about
+
+1318
+00:48:35,839 --> 00:48:37,599
+something you just yeah in step three i
+
+1319
+00:48:37,599 --> 00:48:39,200
+don't understand what's happening there
+
+1320
+00:48:39,200 --> 00:48:40,079
+right
+
+1321
+00:48:40,079 --> 00:48:42,800
+okay so what are we gonna do of course
+
+1322
+00:48:42,800 --> 00:48:45,280
+we are going to use something we just
+
+1323
+00:48:45,280 --> 00:48:47,040
+learned in the lesson otherwise it would
+
+1324
+00:48:47,040 --> 00:48:48,480
+make sense right you learn something new
+
+1325
+00:48:48,480 --> 00:48:50,079
+you want to apply it immediately in
+
+1326
+00:48:50,079 --> 00:48:52,400
+order to make it stick
+
+1327
+00:48:52,400 --> 00:48:54,559
+so we're going to make a project on k
+
+1328
+00:48:54,559 --> 00:48:56,480
+nearest neighborhood neighbors
+
+1329
+00:48:56,480 --> 00:48:57,839
+classifier
+
+1330
+00:48:57,839 --> 00:48:59,760
+so we are
+
+1331
+00:48:59,760 --> 00:49:02,240
+first u alone we're gonna create a k
+
+1332
+00:49:02,240 --> 00:49:03,680
+nearest neighborhood classifier
+
+1333
+00:49:03,680 --> 00:49:06,720
+supporting three dimensions
+
+1334
+00:49:06,720 --> 00:49:08,960
+and then investigate whether it's gonna
+
+1335
+00:49:08,960 --> 00:49:11,520
+perform better right so we only used two
+
+1336
+00:49:11,520 --> 00:49:13,839
+it was humidity and pressure so we're
+
+1337
+00:49:13,839 --> 00:49:16,319
+gonna try to add one more to the model
+
+1338
+00:49:16,319 --> 00:49:18,960
+and see if it does better okay
+
+1339
+00:49:18,960 --> 00:49:20,079
+so
+
+1340
+00:49:20,079 --> 00:49:22,319
+just to help you a bit along here i just
+
+1341
+00:49:22,319 --> 00:49:26,720
+import everything you need actually
+
+1342
+00:49:26,720 --> 00:49:28,400
+you just the first step is just to
+
+1343
+00:49:28,400 --> 00:49:30,559
+execute this cell here
+
+1344
+00:49:30,559 --> 00:49:33,119
+i can do that for you or no you can do
+
+1345
+00:49:33,119 --> 00:49:35,119
+that yourself okay so you just execute
+
+1346
+00:49:35,119 --> 00:49:37,440
+this cell here okay
+
+1347
+00:49:37,440 --> 00:49:40,319
+then the next step is we read the data
+
+1348
+00:49:40,319 --> 00:49:42,000
+right so we use this read csv and
+
+1349
+00:49:42,000 --> 00:49:44,640
+there's a link to it right and it's the
+
+1350
+00:49:44,640 --> 00:49:46,559
+link to where the files are you should
+
+1351
+00:49:46,559 --> 00:49:48,720
+have downloaded them exact same
+
+1352
+00:49:48,720 --> 00:49:50,000
+structure
+
+1353
+00:49:50,000 --> 00:49:53,440
+uh from the repository that i gave you
+
+1354
+00:49:53,440 --> 00:49:55,040
+and then you can have the user parse
+
+1355
+00:49:55,040 --> 00:49:57,280
+dates true and index calls 0 as i used
+
+1356
+00:49:57,280 --> 00:49:59,920
+in the lesson right
+
+1357
+00:49:59,920 --> 00:50:01,920
+that's the second step right so now we
+
+1358
+00:50:01,920 --> 00:50:03,599
+want to investigate the data types right
+
+1359
+00:50:03,599 --> 00:50:06,000
+and you can do that by using d types and
+
+1360
+00:50:06,000 --> 00:50:09,280
+a bit confused well go here to this link
+
+1361
+00:50:09,280 --> 00:50:11,760
+here and see how it does right so you
+
+1362
+00:50:11,760 --> 00:50:14,240
+just put on a data frame d types here so
+
+1363
+00:50:14,240 --> 00:50:15,920
+as i talked about the examples are
+
+1364
+00:50:15,920 --> 00:50:17,599
+pretty good right so you have the data
+
+1365
+00:50:17,599 --> 00:50:20,559
+frame df the data frame
+
+1366
+00:50:20,559 --> 00:50:22,000
+in this case it's called data frame and
+
+1367
+00:50:22,000 --> 00:50:24,240
+it's initialized by this one here and
+
+1368
+00:50:24,240 --> 00:50:25,839
+you can just say
+
+1369
+00:50:25,839 --> 00:50:28,480
+types with no parentheses afterwards and
+
+1370
+00:50:28,480 --> 00:50:30,319
+it will give you a list
+
+1371
+00:50:30,319 --> 00:50:31,520
+okay
+
+1372
+00:50:31,520 --> 00:50:32,559
+perfect
+
+1373
+00:50:32,559 --> 00:50:34,960
+so why do we do that well the goal is to
+
+1374
+00:50:34,960 --> 00:50:37,520
+identify all columns with data type
+
+1375
+00:50:37,520 --> 00:50:41,119
+float 64 for the next step right so some
+
+1376
+00:50:41,119 --> 00:50:44,079
+of the columns do not have type float64
+
+1377
+00:50:44,079 --> 00:50:47,680
+they have type object most likely
+
+1378
+00:50:47,680 --> 00:50:50,000
+and you don't want to use any of those
+
+1379
+00:50:50,000 --> 00:50:53,280
+in your next step
+
+1380
+00:50:53,280 --> 00:50:54,800
+so choose the three columns to create
+
+1381
+00:50:54,800 --> 00:50:57,280
+the data set right so we have humidity
+
+1382
+00:50:57,280 --> 00:50:58,640
+and pressure together with another
+
+1383
+00:50:58,640 --> 00:51:02,160
+column to predict rain tomorrow so
+
+1384
+00:51:02,160 --> 00:51:04,880
+like we did in the lesson here in making
+
+1385
+00:51:04,880 --> 00:51:08,640
+bit additional step is we create a list
+
+1386
+00:51:08,640 --> 00:51:10,319
+of the columns right so we have humidity
+
+1387
+00:51:10,319 --> 00:51:13,119
+pressure and then your choice here
+
+1388
+00:51:13,119 --> 00:51:16,640
+should be one with d types float64 for
+
+1389
+00:51:16,640 --> 00:51:19,280
+instance cloud 3pm and then rain
+
+1390
+00:51:19,280 --> 00:51:21,200
+tomorrow and create a dataset consisting
+
+1391
+00:51:21,200 --> 00:51:23,280
+of these four columns remember we did
+
+1392
+00:51:23,280 --> 00:51:25,680
+that in lesson two do that
+
+1393
+00:51:25,680 --> 00:51:28,079
+and then in step five here deal with the
+
+1394
+00:51:28,079 --> 00:51:30,319
+remaining missing data right but we just
+
+1395
+00:51:30,319 --> 00:51:32,240
+make a simple choice here we just use
+
+1396
+00:51:32,240 --> 00:51:33,839
+drop now like we
+
+1397
+00:51:33,839 --> 00:51:37,440
+drop now drop not a number uh
+
+1398
+00:51:37,440 --> 00:51:39,520
+like we did in the lesson okay
+
+1399
+00:51:39,520 --> 00:51:42,160
+and then step six train and test the
+
+1400
+00:51:42,160 --> 00:51:45,119
+data set right so define the data set x
+
+1401
+00:51:45,119 --> 00:51:48,079
+uh to be the three columns you chose and
+
+1402
+00:51:48,079 --> 00:51:50,880
+why to be the rain tomorrow and you can
+
+1403
+00:51:50,880 --> 00:51:52,800
+use a list comprehension remember we did
+
+1404
+00:51:52,800 --> 00:51:55,200
+that with no one yes
+
+1405
+00:51:55,200 --> 00:51:56,000
+nice
+
+1406
+00:51:56,000 --> 00:51:58,880
+and then we divide it into train test
+
+1407
+00:51:58,880 --> 00:52:01,440
+train test with train test split see how
+
+1408
+00:52:01,440 --> 00:52:03,599
+it done in the lesson you can use random
+
+1409
+00:52:03,599 --> 00:52:06,960
+stage 6 42 or any other number
+
+1410
+00:52:06,960 --> 00:52:08,079
+if you want to
+
+1411
+00:52:08,079 --> 00:52:11,200
+be able to reproduce the results right
+
+1412
+00:52:11,200 --> 00:52:13,359
+and then we create the classifier we
+
+1413
+00:52:13,359 --> 00:52:14,480
+create this
+
+1414
+00:52:14,480 --> 00:52:16,400
+and the default is five you can play
+
+1415
+00:52:16,400 --> 00:52:17,599
+around with that
+
+1416
+00:52:17,599 --> 00:52:18,800
+and
+
+1417
+00:52:18,800 --> 00:52:21,119
+then you fit the model with this and
+
+1418
+00:52:21,119 --> 00:52:23,359
+then you predict
+
+1419
+00:52:23,359 --> 00:52:26,720
+and then you measure the accuracy okay
+
+1420
+00:52:26,720 --> 00:52:28,720
+are you ready and if you really really
+
+1421
+00:52:28,720 --> 00:52:30,960
+noticed something in the lesson actually
+
+1422
+00:52:30,960 --> 00:52:33,359
+we imported it accuracy score and in
+
+1423
+00:52:33,359 --> 00:52:35,119
+this one here we actually imported
+
+1424
+00:52:35,119 --> 00:52:37,640
+metrics so that's why you have to put
+
+1425
+00:52:37,640 --> 00:52:39,760
+metrics.accuracy in it so don't get
+
+1426
+00:52:39,760 --> 00:52:41,359
+confused about that it is correct it
+
+1427
+00:52:41,359 --> 00:52:44,160
+says matrix.accuracy
+
+1428
+00:52:44,160 --> 00:52:45,599
+here okay
+
+1429
+00:52:45,599 --> 00:52:47,680
+and optionally
+
+1430
+00:52:47,680 --> 00:52:49,440
+this is
+
+1431
+00:52:49,440 --> 00:52:51,040
+if you really want to learn something
+
+1432
+00:52:51,040 --> 00:52:52,079
+right
+
+1433
+00:52:52,079 --> 00:52:54,480
+explore explore this is where the fun
+
+1434
+00:52:54,480 --> 00:52:56,880
+begins right so go back to step four and
+
+1435
+00:52:56,880 --> 00:52:59,520
+find with different columns try to do
+
+1436
+00:52:59,520 --> 00:53:02,240
+that it's gonna be fun i promise you
+
+1437
+00:53:02,240 --> 00:53:03,200
+okay
+
+1438
+00:53:03,200 --> 00:53:04,079
+so
+
+1439
+00:53:04,079 --> 00:53:05,520
+what now
+
+1440
+00:53:05,520 --> 00:53:09,040
+press pause in a moment
+
+1441
+00:53:09,040 --> 00:53:11,280
+jump into your jupiter notebook try to
+
+1442
+00:53:11,280 --> 00:53:13,599
+solve as much as you can if you get
+
+1443
+00:53:13,599 --> 00:53:15,599
+stuck somewhere and you say this doesn't
+
+1444
+00:53:15,599 --> 00:53:16,800
+work it doesn't compute it doesn't look
+
+1445
+00:53:16,800 --> 00:53:17,680
+right
+
+1446
+00:53:17,680 --> 00:53:20,240
+then go continue the video until this
+
+1447
+00:53:20,240 --> 00:53:22,400
+step here and see how i'm doing it
+
+1448
+00:53:22,400 --> 00:53:24,720
+and then you try again
+
+1449
+00:53:24,720 --> 00:53:27,200
+you try and then you continue
+
+1450
+00:53:27,200 --> 00:53:29,359
+without looking okay
+
+1451
+00:53:29,359 --> 00:53:32,160
+and in the end you just go through my
+
+1452
+00:53:32,160 --> 00:53:34,559
+way of solving or how you and i you and
+
+1453
+00:53:34,559 --> 00:53:37,200
+i solve it together and um
+
+1454
+00:53:37,200 --> 00:53:39,200
+see if you did it differently if you do
+
+1455
+00:53:39,200 --> 00:53:40,240
+it differently it doesn't mean it's
+
+1456
+00:53:40,240 --> 00:53:43,280
+wrong i mean it's just different choices
+
+1457
+00:53:43,280 --> 00:53:44,960
+okay so
+
+1458
+00:53:44,960 --> 00:53:46,559
+try it yourself
+
+1459
+00:53:46,559 --> 00:53:48,580
+see you in a moment bye bye
+
+1460
+00:53:48,580 --> 00:53:52,800
+[Music]
+
+1461
+00:53:52,800 --> 00:53:55,680
+all right did you try it yourself
+
+1462
+00:53:55,680 --> 00:53:59,440
+oh did you okay amazing so
+
+1463
+00:53:59,440 --> 00:54:00,480
+now
+
+1464
+00:54:00,480 --> 00:54:02,880
+let's see if we can do it together right
+
+1465
+00:54:02,880 --> 00:54:04,400
+you'll help me right because sometimes i
+
+1466
+00:54:04,400 --> 00:54:06,240
+mess things up and i'm pretty sure
+
+1467
+00:54:06,240 --> 00:54:08,800
+you're gonna help me out here okay so in
+
+1468
+00:54:08,800 --> 00:54:10,720
+the jupyter notebook let's import the
+
+1469
+00:54:10,720 --> 00:54:12,559
+libraries that was step one let's try to
+
+1470
+00:54:12,559 --> 00:54:16,079
+do that shift enter
+
+1471
+00:54:16,079 --> 00:54:19,920
+we did it amazing then read the data
+
+1472
+00:54:19,920 --> 00:54:22,720
+so read the data from files weather.csv
+
+1473
+00:54:22,720 --> 00:54:27,280
+so data i just call it data like that pd
+
+1474
+00:54:27,280 --> 00:54:29,359
+read csv
+
+1475
+00:54:29,359 --> 00:54:31,200
+and we take
+
+1476
+00:54:31,200 --> 00:54:33,200
+we take files
+
+1477
+00:54:33,200 --> 00:54:35,200
+and weather
+
+1478
+00:54:35,200 --> 00:54:36,720
+and see it auto completes if you use
+
+1479
+00:54:36,720 --> 00:54:39,280
+that and parse
+
+1480
+00:54:39,280 --> 00:54:41,920
+dates true
+
+1481
+00:54:41,920 --> 00:54:44,480
+index call
+
+1482
+00:54:44,480 --> 00:54:46,559
+zero okay
+
+1483
+00:54:46,559 --> 00:54:48,559
+execute and then we can actually see
+
+1484
+00:54:48,559 --> 00:54:50,160
+data here ahead
+
+1485
+00:54:50,160 --> 00:54:53,920
+it's always good idea just to
+
+1486
+00:54:53,920 --> 00:54:56,400
+just to look at it and say nah that's
+
+1487
+00:54:56,400 --> 00:54:58,480
+really beautiful right okay
+
+1488
+00:54:58,480 --> 00:55:00,720
+perfect then investigate the data types
+
+1489
+00:55:00,720 --> 00:55:04,400
+right so use d types let's do that data
+
+1490
+00:55:04,400 --> 00:55:07,119
+d types and again what is it we're
+
+1491
+00:55:07,119 --> 00:55:09,760
+looking for as i told you we're looking
+
+1492
+00:55:09,760 --> 00:55:13,599
+for columns with have floats
+
+1493
+00:55:13,599 --> 00:55:16,000
+so how does it work in data frames right
+
+1494
+00:55:16,000 --> 00:55:18,400
+it rates that you only have one data
+
+1495
+00:55:18,400 --> 00:55:22,319
+type in an entire row or column i meant
+
+1496
+00:55:22,319 --> 00:55:24,400
+so you can use any of these you can say
+
+1497
+00:55:24,400 --> 00:55:27,280
+wind gust direction it's an object and
+
+1498
+00:55:27,280 --> 00:55:29,920
+wind deer wind direction probably is an
+
+1499
+00:55:29,920 --> 00:55:33,280
+object so if you look at wind direction
+
+1500
+00:55:33,280 --> 00:55:34,880
+okay this one here you can see that's
+
+1501
+00:55:34,880 --> 00:55:36,720
+the direction it's not a number you
+
+1502
+00:55:36,720 --> 00:55:38,720
+could probably convert them to some kind
+
+1503
+00:55:38,720 --> 00:55:40,720
+of uh
+
+1504
+00:55:40,720 --> 00:55:42,720
+values like uh
+
+1505
+00:55:42,720 --> 00:55:44,640
+sinus value or something but we're not
+
+1506
+00:55:44,640 --> 00:55:47,040
+gonna do that uh we're gonna keep it
+
+1507
+00:55:47,040 --> 00:55:48,400
+simple and
+
+1508
+00:55:48,400 --> 00:55:50,400
+find some columns
+
+1509
+00:55:50,400 --> 00:55:53,040
+which are
+
+1510
+00:55:53,040 --> 00:55:54,319
+which are
+
+1511
+00:55:54,319 --> 00:55:55,839
+float for instance
+
+1512
+00:55:55,839 --> 00:55:59,839
+cloud 3pm so let's go down here
+
+1513
+00:55:59,839 --> 00:56:02,960
+so use humidity pressure
+
+1514
+00:56:02,960 --> 00:56:04,160
+pm
+
+1515
+00:56:04,160 --> 00:56:05,920
+and another column
+
+1516
+00:56:05,920 --> 00:56:07,359
+to predict
+
+1517
+00:56:07,359 --> 00:56:09,119
+that and uh
+
+1518
+00:56:09,119 --> 00:56:11,760
+let's see three columns names and
+
+1519
+00:56:11,760 --> 00:56:13,440
+with rain tomorrow right so let's do
+
+1520
+00:56:13,440 --> 00:56:14,960
+that actually
+
+1521
+00:56:14,960 --> 00:56:17,440
+columns
+
+1522
+00:56:17,440 --> 00:56:19,760
+here and we take uh
+
+1523
+00:56:19,760 --> 00:56:26,000
+let's i'm lazy here
+
+1524
+00:56:26,000 --> 00:56:28,640
+you see copy paste this off oops copy
+
+1525
+00:56:28,640 --> 00:56:31,520
+paste is a sin no
+
+1526
+00:56:31,520 --> 00:56:33,200
+i don't know what it is
+
+1527
+00:56:33,200 --> 00:56:35,520
+and uh
+
+1528
+00:56:35,520 --> 00:56:37,599
+we could say cloud 3 pm
+
+1529
+00:56:37,599 --> 00:56:41,440
+i'm lazy here
+
+1530
+00:56:41,440 --> 00:56:43,920
+oops i did something wrong here that's
+
+1531
+00:56:43,920 --> 00:56:46,000
+what i said you need you needed to help
+
+1532
+00:56:46,000 --> 00:56:48,160
+me oh it's because it doesn't like
+
+1533
+00:56:48,160 --> 00:56:49,119
+that i'm
+
+1534
+00:56:49,119 --> 00:56:50,480
+coming here
+
+1535
+00:56:50,480 --> 00:56:52,720
+it doesn't like i'm copying from it i
+
+1536
+00:56:52,720 --> 00:56:54,720
+thought it went pretty well before
+
+1537
+00:56:54,720 --> 00:56:56,799
+but now i'm pressing wrongly so now we
+
+1538
+00:56:56,799 --> 00:56:58,400
+have the columns right
+
+1539
+00:56:58,400 --> 00:56:59,520
+and
+
+1540
+00:56:59,520 --> 00:57:02,720
+then we are going to make the data set
+
+1541
+00:57:02,720 --> 00:57:05,280
+from that data set to be
+
+1542
+00:57:05,280 --> 00:57:08,000
+data
+
+1543
+00:57:08,000 --> 00:57:11,680
+columns here right okay so this is
+
+1544
+00:57:11,680 --> 00:57:14,559
+basically it right so now we have data
+
+1545
+00:57:14,559 --> 00:57:16,960
+set head
+
+1546
+00:57:16,960 --> 00:57:18,960
+head
+
+1547
+00:57:18,960 --> 00:57:21,920
+here and looks beautiful right
+
+1548
+00:57:21,920 --> 00:57:23,200
+perfect
+
+1549
+00:57:23,200 --> 00:57:24,720
+and uh
+
+1550
+00:57:24,720 --> 00:57:27,280
+and deal with missing data okay
+
+1551
+00:57:27,280 --> 00:57:28,160
+so
+
+1552
+00:57:28,160 --> 00:57:30,240
+let's let's do that
+
+1553
+00:57:30,240 --> 00:57:32,559
+use the drop now so it has not a number
+
+1554
+00:57:32,559 --> 00:57:36,160
+right so let's say data set clean like
+
+1555
+00:57:36,160 --> 00:57:38,240
+we did in the other one and we set that
+
+1556
+00:57:38,240 --> 00:57:40,720
+to data set
+
+1557
+00:57:40,720 --> 00:57:43,280
+drop nah
+
+1558
+00:57:43,280 --> 00:57:44,160
+here
+
+1559
+00:57:44,160 --> 00:57:47,440
+and let's just like the other one data
+
+1560
+00:57:47,440 --> 00:57:49,760
+set oh we should take length of it
+
+1561
+00:57:49,760 --> 00:57:52,839
+length data set
+
+1562
+00:57:52,839 --> 00:57:54,880
+comma length
+
+1563
+00:57:54,880 --> 00:57:57,680
+data set clean
+
+1564
+00:57:57,680 --> 00:57:59,440
+oops
+
+1565
+00:57:59,440 --> 00:58:01,359
+here we go so you see here actually we
+
+1566
+00:58:01,359 --> 00:58:03,760
+delete way more columns than the other
+
+1567
+00:58:03,760 --> 00:58:06,160
+one so it seems like
+
+1568
+00:58:06,160 --> 00:58:10,000
+cloud 3pm is not as clean as the other
+
+1569
+00:58:10,000 --> 00:58:11,280
+one
+
+1570
+00:58:11,280 --> 00:58:14,240
+but it's okay i still think 2700 is good
+
+1571
+00:58:14,240 --> 00:58:17,040
+enough for our purposes right now
+
+1572
+00:58:17,040 --> 00:58:20,160
+good and the defined dataset x
+
+1573
+00:58:20,160 --> 00:58:22,000
+should be the set consisting of the
+
+1574
+00:58:22,000 --> 00:58:23,440
+three columns
+
+1575
+00:58:23,440 --> 00:58:25,440
+so let's say data
+
+1576
+00:58:25,440 --> 00:58:26,720
+set
+
+1577
+00:58:26,720 --> 00:58:28,559
+clean to be
+
+1578
+00:58:28,559 --> 00:58:33,680
+columns the first three right so
+
+1579
+00:58:33,680 --> 00:58:36,720
+we put in the right order and then we
+
+1580
+00:58:36,720 --> 00:58:39,200
+take y equals to
+
+1581
+00:58:39,200 --> 00:58:42,160
+data set clean
+
+1582
+00:58:42,160 --> 00:58:43,640
+and we take
+
+1583
+00:58:43,640 --> 00:58:46,559
+columns and actually
+
+1584
+00:58:46,559 --> 00:58:49,119
+three here
+
+1585
+00:58:49,119 --> 00:58:51,680
+and then we need to transform right
+
+1586
+00:58:51,680 --> 00:58:53,920
+remember that np
+
+1587
+00:58:53,920 --> 00:58:55,839
+array
+
+1588
+00:58:55,839 --> 00:58:58,160
+here and then we'd set
+
+1589
+00:58:58,160 --> 00:59:01,520
+how was it we did it it said
+
+1590
+00:59:01,520 --> 00:59:05,440
+zero if value equals equals
+
+1591
+00:59:05,440 --> 00:59:06,559
+no
+
+1592
+00:59:06,559 --> 00:59:08,000
+was that it
+
+1593
+00:59:08,000 --> 00:59:09,200
+uh
+
+1594
+00:59:09,200 --> 00:59:10,720
+else
+
+1595
+00:59:10,720 --> 00:59:11,760
+one
+
+1596
+00:59:11,760 --> 00:59:12,799
+for
+
+1597
+00:59:12,799 --> 00:59:16,480
+value in y wasn't that it i think so
+
+1598
+00:59:16,480 --> 00:59:17,680
+perfect
+
+1599
+00:59:17,680 --> 00:59:19,119
+and
+
+1600
+00:59:19,119 --> 00:59:20,960
+then we want to divide it
+
+1601
+00:59:20,960 --> 00:59:24,400
+oh that's a long thing here
+
+1602
+00:59:24,400 --> 00:59:25,280
+here
+
+1603
+00:59:25,280 --> 00:59:27,280
+and we take the
+
+1604
+00:59:27,280 --> 00:59:29,680
+train test split
+
+1605
+00:59:29,680 --> 00:59:31,599
+and we take x
+
+1606
+00:59:31,599 --> 00:59:32,799
+y
+
+1607
+00:59:32,799 --> 00:59:35,680
+and random state
+
+1608
+00:59:35,680 --> 00:59:38,480
+42 perfect so now we divide it into
+
+1609
+00:59:38,480 --> 00:59:39,920
+training and testing and training and
+
+1610
+00:59:39,920 --> 00:59:42,880
+testing and yeah
+
+1611
+00:59:42,880 --> 00:59:45,040
+you did that too awesome
+
+1612
+00:59:45,040 --> 00:59:48,000
+and now for the fun part train and test
+
+1613
+00:59:48,000 --> 00:59:50,319
+the model to create a classifier with k
+
+1614
+00:59:50,319 --> 00:59:51,520
+neighborhood
+
+1615
+00:59:51,520 --> 00:59:53,599
+so i think in the lecture we called it
+
+1616
+00:59:53,599 --> 00:59:56,079
+an a so let's do that as well here
+
+1617
+00:59:56,079 --> 00:59:56,960
+and
+
+1618
+00:59:56,960 --> 00:59:58,720
+you can play around with any neighbors
+
+1619
+00:59:58,720 --> 01:00:00,640
+but we're not going to do that
+
+1620
+01:00:00,640 --> 01:00:02,160
+and then we
+
+1621
+01:00:02,160 --> 01:00:03,760
+fit the model
+
+1622
+01:00:03,760 --> 01:00:05,280
+fit with
+
+1623
+01:00:05,280 --> 01:00:07,599
+x strain y
+
+1624
+01:00:07,599 --> 01:00:09,119
+train
+
+1625
+01:00:09,119 --> 01:00:12,160
+and then we want to predict some data y
+
+1626
+01:00:12,160 --> 01:00:13,440
+print
+
+1627
+01:00:13,440 --> 01:00:15,359
+to be
+
+1628
+01:00:15,359 --> 01:00:16,440
+a
+
+1629
+01:00:16,440 --> 01:00:18,319
+predict
+
+1630
+01:00:18,319 --> 01:00:22,079
+for x test and then we need to calculate
+
+1631
+01:00:22,079 --> 01:00:24,000
+the
+
+1632
+01:00:24,000 --> 01:00:27,680
+the accuracy accuracy score
+
+1633
+01:00:27,680 --> 01:00:28,400
+y
+
+1634
+01:00:28,400 --> 01:00:29,920
+test
+
+1635
+01:00:29,920 --> 01:00:32,319
+why pred right so again here what we did
+
+1636
+01:00:32,319 --> 01:00:34,480
+we create the model we fit the model
+
+1637
+01:00:34,480 --> 01:00:36,400
+with the training data and then we do
+
+1638
+01:00:36,400 --> 01:00:38,079
+the prediction on the test data and then
+
+1639
+01:00:38,079 --> 01:00:40,400
+we take the predicted data and
+
+1640
+01:00:40,400 --> 01:00:43,359
+make the accuracy of the test data here
+
+1641
+01:00:43,359 --> 01:00:44,559
+81.
+
+1642
+01:00:44,559 --> 01:00:46,240
+amazing in the lesson we had 80
+
+1643
+01:00:46,240 --> 01:00:48,670
+something right so actually adding
+
+1644
+01:00:48,670 --> 01:00:50,559
+[Music]
+
+1645
+01:00:50,559 --> 01:00:51,680
+the cloud
+
+1646
+01:00:51,680 --> 01:00:54,480
+measurement
+
+1647
+01:00:54,480 --> 01:00:55,839
+at 3 pm
+
+1648
+01:00:55,839 --> 01:00:58,079
+actually add some accuracy
+
+1649
+01:00:58,079 --> 01:01:00,240
+to it but there's a catch of course we
+
+1650
+01:01:00,240 --> 01:01:02,480
+also know that the data set is smaller
+
+1651
+01:01:02,480 --> 01:01:04,640
+here so it might be other factors that
+
+1652
+01:01:04,640 --> 01:01:05,680
+actually
+
+1653
+01:01:05,680 --> 01:01:07,200
+pay
+
+1654
+01:01:07,200 --> 01:01:09,200
+pay into account so you cannot make the
+
+1655
+01:01:09,200 --> 01:01:11,440
+conclusion it makes more accurate like
+
+1656
+01:01:11,440 --> 01:01:14,240
+that okay so i would highly advise you
+
+1657
+01:01:14,240 --> 01:01:16,160
+to try to play around with it and it's a
+
+1658
+01:01:16,160 --> 01:01:18,880
+good idea to actually make these
+
+1659
+01:01:18,880 --> 01:01:20,720
+measurements here to see how much data
+
+1660
+01:01:20,720 --> 01:01:22,720
+you like because sometimes you get some
+
+1661
+01:01:22,720 --> 01:01:26,240
+tiny data sets and it fits magically by
+
+1662
+01:01:26,240 --> 01:01:27,760
+magic
+
+1663
+01:01:27,760 --> 01:01:29,760
+and uh
+
+1664
+01:01:29,760 --> 01:01:30,799
+worry about
+
+1665
+01:01:30,799 --> 01:01:32,640
+don't do those mistakes and become all
+
+1666
+01:01:32,640 --> 01:01:35,200
+excited and say oh i matched it so again
+
+1667
+01:01:35,200 --> 01:01:37,200
+it's not the goal to get 100 down there
+
+1668
+01:01:37,200 --> 01:01:38,559
+it's not the goal
+
+1669
+01:01:38,559 --> 01:01:41,359
+it is the goal to make something amazing
+
+1670
+01:01:41,359 --> 01:01:42,480
+okay
+
+1671
+01:01:42,480 --> 01:01:44,720
+so if you like this tutorial please like
+
+1672
+01:01:44,720 --> 01:01:46,799
+and subscribe and i will post more in
+
+1673
+01:01:46,799 --> 01:01:49,040
+the future in the next lesson that
+
+1674
+01:01:49,040 --> 01:01:51,040
+should be somewhere around here
+
+1675
+01:01:51,040 --> 01:01:53,680
+you will be able to do a linear
+
+1676
+01:01:53,680 --> 01:01:56,400
+classifier it's going to be amazing it's
+
+1677
+01:01:56,400 --> 01:01:59,039
+quite similar easy to understand like
+
+1678
+01:01:59,039 --> 01:02:01,599
+the k nearest neighbors but
+
+1679
+01:02:01,599 --> 01:02:03,839
+it has different strengths and we're
+
+1680
+01:02:03,839 --> 01:02:06,000
+going to explore that one together in
+
+1681
+01:02:06,000 --> 01:02:07,280
+the next lecture it's going to be
+
+1682
+01:02:07,280 --> 01:02:09,119
+amazing i promise you that see you in a
+
+1683
+01:02:09,119 --> 01:02:11,760
+moment
