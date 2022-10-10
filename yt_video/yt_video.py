@@ -5,14 +5,15 @@ from gtts import gTTS
 
 
 
-def vid_downloader(url:str)->None:
+def vid_downloader(url:str, filename:str)->None:
     yt_obj = YT(url);
     print(yt_obj.author, yt_obj.title)
     print(yt_obj.captions)
-    cap = yt_obj.captions['a.en']
+    cap = yt_obj.captions['en']
     caps = cap.generate_srt_captions()
+    comp_filename = filename + ".txt"
 
-    with open('caption.txt', 'w') as f:
+    with open(comp_filename, 'w') as f:
         f.write(caps)
 
 def get_only_sentence(filename) -> str:
@@ -24,11 +25,13 @@ def get_only_sentence(filename) -> str:
                 word += i
         return word
 
-def convrt_to_cap_audio(filename):
+def convrt_to_cap_audio(filename, audio_name="new_en"):
+    filename = filename + ".txt"
     word = get_only_sentence(filename)
     tts_en = gTTS(word, lang='en')
+    audio_name = audio_name + ".mp3"
 
-    with open('new_en.mp3', 'wb') as f:
+    with open(audio_name, 'wb') as f:
         tts_en.write_to_fp(f)
 
 
